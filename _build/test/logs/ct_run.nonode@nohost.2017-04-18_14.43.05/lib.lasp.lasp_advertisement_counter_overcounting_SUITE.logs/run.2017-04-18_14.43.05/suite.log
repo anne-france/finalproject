@@ -1,0 +1,136 @@
+=== Suite started at 2017-04-18 14:43:05
+=== Starting test, 3 test cases
+=cases         3
+=user          anne-francevanswieten
+=host          nohost
+=hosts         nohost 
+=emulator_vsn  8.3
+=emulator      beam
+=otp_release   19
+=started       2017-04-18 14:43:05
+=case          lasp_advertisement_counter_overcounting_SUITE:init_per_suite
+=logfile       lasp_advertisement_counter_overcounting_suite.init_per_suite.html
+=started       2017-04-18 14:43:05
+=ended         2017-04-18 14:43:05
+=result        ok
+=elapsed       2.0e-6
+=case          lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test
+=logfile       lasp_advertisement_counter_overcounting_suite.client_server_overcounting_test.html
+=started       2017-04-18 14:43:05
+=ended         2017-04-18 14:43:11
+=result        failed: {{case_clause,ad_counter_overcounting},
+                        [{lasp_simulation_support,'-start/3-fun-2-',4,
+                             [{file,
+                                  "/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/simulations/lasp_simulation_support.erl"},
+                              {line,171}]},
+                         {lists,map,2,[{file,"lists.erl"},{line,1239}]},
+                         {lasp_simulation_support,start,3,
+                             [{file,
+                                  "/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/simulations/lasp_simulation_support.erl"},
+                              {line,284}]},
+                         {lasp_simulation_support,'-run/3-fun-0-',6,
+                             [{file,
+                                  "/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/simulations/lasp_simulation_support.erl"},
+                              {line,40}]},
+                         {lists,foreach,2,[{file,"lists.erl"},{line,1338}]},
+                         {lasp_advertisement_counter_overcounting_SUITE,
+                             client_server_overcounting_test,1,
+                             [{file,
+                                  "/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/test/lasp_advertisement_counter_overcounting_SUITE.erl"},
+                              {line,80}]},
+                         {test_server,ts_tc,3,
+                             [{file,"test_server.erl"},{line,1529}]},
+                         {test_server,run_test_case_eval1,6,
+                             [{file,"test_server.erl"},{line,1045}]}]}, [{lasp_simulation_support,
+                                                                          '-start/3-fun-2-',
+                                                                          171},
+                                                                         {lists,
+                                                                          map,
+                                                                          1239},
+                                                                         {lasp_simulation_support,
+                                                                          start,
+                                                                          284},
+                                                                         {lasp_simulation_support,
+                                                                          '-run/3-fun-0-',
+                                                                          40},
+                                                                         {lists,
+                                                                          foreach,
+                                                                          1338},
+                                                                         {lasp_advertisement_counter_overcounting_SUITE,
+                                                                          client_server_overcounting_test,
+                                                                          80},
+                                                                         {test_server,
+                                                                          ts_tc,
+                                                                          1529},
+                                                                         {test_server,
+                                                                          run_test_case_eval1,
+                                                                          1045}]
+=== *** FAILED test case 1 of 3 ***
+=case          lasp_advertisement_counter_overcounting_SUITE:peer_to_peer_overcounting_test
+=logfile       lasp_advertisement_counter_overcounting_suite.peer_to_peer_overcounting_test.html
+=started       2017-04-18 14:43:11
+=ended         2017-04-18 14:43:11
+=result        failed: {test_case_failed,
+                           {error,already_started,server@MBPdeAnneFrance}}, [{lists,
+                                                                              map,
+                                                                              1239},
+                                                                             {lasp_simulation_support,
+                                                                              start,
+                                                                              93},
+                                                                             {lasp_simulation_support,
+                                                                              '-run/3-fun-0-',
+                                                                              40},
+                                                                             {lists,
+                                                                              foreach,
+                                                                              1338},
+                                                                             {lasp_advertisement_counter_overcounting_SUITE,
+                                                                              peer_to_peer_overcounting_test,
+                                                                              101},
+                                                                             {test_server,
+                                                                              ts_tc,
+                                                                              1529},
+                                                                             {test_server,
+                                                                              run_test_case_eval1,
+                                                                              1045}]
+=== *** FAILED test case 2 of 3 ***
+=case          lasp_advertisement_counter_overcounting_SUITE:code_peer_to_peer_overcounting_test
+=logfile       lasp_advertisement_counter_overcounting_suite.code_peer_to_peer_overcounting_test.html
+=started       2017-04-18 14:43:11
+=ended         2017-04-18 14:43:11
+=result        failed: {test_case_failed,
+                           {error,already_started,server@MBPdeAnneFrance}}, [{lists,
+                                                                              map,
+                                                                              1239},
+                                                                             {lasp_simulation_support,
+                                                                              start,
+                                                                              93},
+                                                                             {lasp_simulation_support,
+                                                                              '-run/3-fun-0-',
+                                                                              40},
+                                                                             {lists,
+                                                                              foreach,
+                                                                              1338},
+                                                                             {lasp_advertisement_counter_overcounting_SUITE,
+                                                                              code_peer_to_peer_overcounting_test,
+                                                                              122},
+                                                                             {test_server,
+                                                                              ts_tc,
+                                                                              1529},
+                                                                             {test_server,
+                                                                              run_test_case_eval1,
+                                                                              1045}]
+=== *** FAILED test case 3 of 3 ***
+=case          lasp_advertisement_counter_overcounting_SUITE:end_per_suite
+=logfile       lasp_advertisement_counter_overcounting_suite.end_per_suite.html
+=started       2017-04-18 14:43:11
+=ended         2017-04-18 14:43:11
+=result        ok
+=elapsed       1.0e-6
+=group_time    6.157s
+=== TEST COMPLETE, 0 ok, 3 failed of 3 test cases
+
+=finished      2017-04-18 14:43:11
+=failed        3
+=successful    0
+=user_skipped  0
+=auto_skipped  0

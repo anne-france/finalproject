@@ -1,0 +1,39 @@
+2017-04-18 13:51:23 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.657.0>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,econnrefused}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,344}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_workflow,lasp_sup,<0.583.0>]
+    messages: []
+    links: [<0.656.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 646
+  neighbours:
+    neighbour: [{pid,<0.656.0>},{registered_name,lasp_workflow},{initial_call,{lasp_workflow,init,['Argument__1']}},{current_function,{proc_lib,sync_wait,2}},{ancestors,[lasp_sup,<0.583.0>]},{messages,[{ack,<0.657.0>,{error,{connection_error,{connection_error,econnrefused}}}}]},{links,[<0.584.0>,<0.657.0>]},{dictionary,[]},{trap_exit,false},{status,runnable},{heap_size,233},{stack_size,20},{reductions,71}]
+2017-04-18 13:51:23 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_sup}
+     Context:    start_error
+     Reason:     {connection_error,{connection_error,econnrefused}}
+     Offender:   [{pid,undefined},{id,lasp_workflow},{mfargs,{lasp_workflow,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-04-18 13:51:23 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.582.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,lasp_workflow,{connection_error,{connection_error,econnrefused}}}},{lasp_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.581.0>]
+    messages: [{'EXIT',<0.583.0>,normal}]
+    links: [<0.581.0>,<0.31.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 119
+  neighbours:

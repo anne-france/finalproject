@@ -1,0 +1,1869 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test lasp_advertisement_counter_partition_overcounting_SUITE:code_peer_to_peer_partition_overcounting_test result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="lasp_advertisement_counter_partition_overcounting_suite.src.html#code_peer_to_peer_partition_overcounting_test-1">lasp_advertisement_counter_partition_overcounting_SUITE:code_peer_to_peer_partition_overcounting_test/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,infinity},
+     {tc_logfile,"/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-18_16.08.31/lib.lasp.lasp_advertisement_counter_partition_overcounting_SUITE.logs/run.2017-04-18_16.08.31/lasp_advertisement_counter_partition_overcounting_suite.code_peer_to_peer_partition_overcounting_test.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/test/lasp_advertisement_counter_partition_overcounting_SUITE_data/"},
+     {priv_dir,"/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-18_16.08.31/lib.lasp.lasp_advertisement_counter_partition_overcounting_SUITE.logs/run.2017-04-18_16.08.31/log_private/"}]
+
+=== Current directory is "/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-18_16.08.31"
+
+=== Started at 2017-04-18 16:48:25
+
+<br />
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:25.576 ***</b>
+Beginning test case code_peer_to_peer_partition_overcounting_test
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:25.581 ***</b>
+Running code_peer_to_peer_partition_overcounting_test with nodes [server,
+                                                                  client_1,
+                                                                  client_2,
+                                                                  client_3,
+                                                                  client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:25.582 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:25.591 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:26.650 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:27.707 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:28.771 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:29.842 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:30.910 ***</b>
+Loading lasp on node: server@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:30.942 ***</b>
+Loading lasp on node: client_1@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:30.973 ***</b>
+Loading lasp on node: client_2@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:31.004 ***</b>
+Loading lasp on node: client_3@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:31.035 ***</b>
+Loading lasp on node: client_4@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:31.961 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.265 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.265 ***</b>
+Joining node: server@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57494
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.266 ***</b>
+Joining node: server@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57496
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.269 ***</b>
+Joining node: server@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57498
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.271 ***</b>
+Joining node: server@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57500
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.272 ***</b>
+Joining node: client_1@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57492
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.278 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57496
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.278 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57498
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.280 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57500
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.283 ***</b>
+Joining node: client_2@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57492
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.286 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57494
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.291 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57498
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.292 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57500
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.293 ***</b>
+Joining node: client_3@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57492
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.294 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57494
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.295 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57496
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.296 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57500
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.298 ***</b>
+Joining node: client_4@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57492
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.302 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57494
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.305 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57496
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.305 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57498
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.306 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:48:33.306 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:20.183 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:30.184 ***</b>
+Running code_peer_to_peer_partition_overcounting_test with nodes [server,
+                                                                  client_1,
+                                                                  client_2,
+                                                                  client_3,
+                                                                  client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:30.185 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:30.196 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:31.262 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:32.330 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:33.399 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:34.464 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:35.530 ***</b>
+Loading lasp on node: server@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:35.566 ***</b>
+Loading lasp on node: client_1@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:35.600 ***</b>
+Loading lasp on node: client_2@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:35.636 ***</b>
+Loading lasp on node: client_3@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:35.670 ***</b>
+Loading lasp on node: client_4@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:36.690 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.146 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.146 ***</b>
+Joining node: server@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57614
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.147 ***</b>
+Joining node: server@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57616
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.153 ***</b>
+Joining node: server@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57618
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.155 ***</b>
+Joining node: server@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57620
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.160 ***</b>
+Joining node: client_1@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57612
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.162 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57616
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.164 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57618
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.172 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57620
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.174 ***</b>
+Joining node: client_2@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57612
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.176 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57614
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.177 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57618
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.179 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57620
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.183 ***</b>
+Joining node: client_3@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57612
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.185 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57614
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.186 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57616
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.187 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57620
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.188 ***</b>
+Joining node: client_4@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57612
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.192 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57614
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.194 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57616
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.198 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57618
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.198 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 16:59:38.198 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:27.244 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:37.242 ***</b>
+Running code_peer_to_peer_partition_overcounting_test with nodes [server,
+                                                                  client_1,
+                                                                  client_2,
+                                                                  client_3,
+                                                                  client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:37.242 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:37.252 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:38.317 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:39.380 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:40.440 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:41.500 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:42.561 ***</b>
+Loading lasp on node: server@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:42.592 ***</b>
+Loading lasp on node: client_1@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:42.623 ***</b>
+Loading lasp on node: client_2@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:42.655 ***</b>
+Loading lasp on node: client_3@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:42.688 ***</b>
+Loading lasp on node: client_4@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:43.678 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.201 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.201 ***</b>
+Joining node: server@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57739
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.202 ***</b>
+Joining node: server@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57741
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.206 ***</b>
+Joining node: server@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57743
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.208 ***</b>
+Joining node: server@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57745
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.209 ***</b>
+Joining node: client_1@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57737
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.217 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57741
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.219 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57743
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.220 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57745
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.222 ***</b>
+Joining node: client_2@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57737
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.224 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57739
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.224 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57743
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.228 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57745
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.230 ***</b>
+Joining node: client_3@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57737
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.231 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57739
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.232 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57741
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.233 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57745
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.234 ***</b>
+Joining node: client_4@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57737
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.238 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57739
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.242 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57741
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.243 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57743
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.244 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:01:45.244 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:34.435 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:44.445 ***</b>
+Running code_peer_to_peer_partition_overcounting_test with nodes [server,
+                                                                  client_1,
+                                                                  client_2,
+                                                                  client_3,
+                                                                  client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:44.445 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:44.455 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:45.526 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:46.608 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:47.698 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:48.770 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:49.850 ***</b>
+Loading lasp on node: server@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:49.890 ***</b>
+Loading lasp on node: client_1@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:49.931 ***</b>
+Loading lasp on node: client_2@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:49.968 ***</b>
+Loading lasp on node: client_3@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:50.015 ***</b>
+Loading lasp on node: client_4@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:51.161 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.794 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.795 ***</b>
+Joining node: server@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57895
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.795 ***</b>
+Joining node: server@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57897
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.799 ***</b>
+Joining node: server@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57899
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.800 ***</b>
+Joining node: server@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57901
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.800 ***</b>
+Joining node: client_1@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57893
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.809 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57897
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.814 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57899
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.816 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57901
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.817 ***</b>
+Joining node: client_2@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57893
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.818 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57895
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.820 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57899
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.823 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57901
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.823 ***</b>
+Joining node: client_3@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57893
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.825 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57895
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.829 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57897
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.834 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 57901
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.840 ***</b>
+Joining node: client_4@MBPdeAnneFrance to server@MBPdeAnneFrance at port 57893
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.841 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 57895
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.843 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 57897
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.845 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 57899
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.846 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:03:52.846 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:42.091 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:52.100 ***</b>
+Running code_peer_to_peer_partition_overcounting_test with nodes [server,
+                                                                  client_1,
+                                                                  client_2,
+                                                                  client_3,
+                                                                  client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:52.100 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:52.122 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:53.192 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:54.285 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:55.364 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:56.439 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:57.498 ***</b>
+Loading lasp on node: server@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:57.535 ***</b>
+Loading lasp on node: client_1@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:57.566 ***</b>
+Loading lasp on node: client_2@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:57.597 ***</b>
+Loading lasp on node: client_3@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:57.629 ***</b>
+Loading lasp on node: client_4@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:05:58.795 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.316 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.316 ***</b>
+Joining node: server@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58021
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.317 ***</b>
+Joining node: server@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58023
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.321 ***</b>
+Joining node: server@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58025
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.322 ***</b>
+Joining node: server@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58027
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.325 ***</b>
+Joining node: client_1@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58019
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.330 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58023
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.332 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58025
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.334 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58027
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.338 ***</b>
+Joining node: client_2@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58019
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.344 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58021
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.346 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58025
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.349 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58027
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.353 ***</b>
+Joining node: client_3@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58019
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.354 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58021
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.355 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58023
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.356 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58027
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.358 ***</b>
+Joining node: client_4@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58019
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.361 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58021
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.364 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58023
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.367 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58025
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.367 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:06:00.368 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:07:49.485 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:07:59.487 ***</b>
+Running code_peer_to_peer_partition_overcounting_test with nodes [server,
+                                                                  client_1,
+                                                                  client_2,
+                                                                  client_3,
+                                                                  client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:07:59.487 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:07:59.496 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:00.553 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:01.618 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:02.675 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:03.734 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:04.794 ***</b>
+Loading lasp on node: server@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:04.822 ***</b>
+Loading lasp on node: client_1@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:04.853 ***</b>
+Loading lasp on node: client_2@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:04.884 ***</b>
+Loading lasp on node: client_3@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:04.916 ***</b>
+Loading lasp on node: client_4@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:05.844 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.129 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.130 ***</b>
+Joining node: server@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58139
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.130 ***</b>
+Joining node: server@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58141
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.134 ***</b>
+Joining node: server@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58143
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.134 ***</b>
+Joining node: server@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58145
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.135 ***</b>
+Joining node: client_1@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58137
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.141 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58141
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.142 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58143
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.143 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58145
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.145 ***</b>
+Joining node: client_2@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58137
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.149 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58139
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.150 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58143
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.151 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58145
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.152 ***</b>
+Joining node: client_3@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58137
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.155 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58139
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.156 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58141
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.158 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58145
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.159 ***</b>
+Joining node: client_4@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58137
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.162 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58139
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.165 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58141
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.169 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58143
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.169 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:08:07.170 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:09:56.344 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:06.346 ***</b>
+Running code_peer_to_peer_partition_overcounting_test with nodes [server,
+                                                                  client_1,
+                                                                  client_2,
+                                                                  client_3,
+                                                                  client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:06.346 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:06.357 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:07.418 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:08.479 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:09.540 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:10.603 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:11.668 ***</b>
+Loading lasp on node: server@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:11.709 ***</b>
+Loading lasp on node: client_1@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:11.744 ***</b>
+Loading lasp on node: client_2@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:11.779 ***</b>
+Loading lasp on node: client_3@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:11.820 ***</b>
+Loading lasp on node: client_4@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:12.906 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.370 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.371 ***</b>
+Joining node: server@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58298
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.371 ***</b>
+Joining node: server@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58300
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.376 ***</b>
+Joining node: server@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58302
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.379 ***</b>
+Joining node: server@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58304
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.379 ***</b>
+Joining node: client_1@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58296
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.385 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58300
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.387 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58302
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.387 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58304
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.389 ***</b>
+Joining node: client_2@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58296
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.391 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58298
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.395 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58302
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.396 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58304
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.399 ***</b>
+Joining node: client_3@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58296
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.402 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58298
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.403 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58300
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.404 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58304
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.405 ***</b>
+Joining node: client_4@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58296
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.406 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58298
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.410 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58300
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.415 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58302
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.416 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:10:14.416 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:03.674 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:13.686 ***</b>
+Running code_peer_to_peer_partition_overcounting_test with nodes [server,
+                                                                  client_1,
+                                                                  client_2,
+                                                                  client_3,
+                                                                  client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:13.687 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:13.729 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:14.869 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:15.944 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:17.009 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:18.072 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:19.139 ***</b>
+Loading lasp on node: server@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:19.184 ***</b>
+Loading lasp on node: client_1@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:19.222 ***</b>
+Loading lasp on node: client_2@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:19.258 ***</b>
+Loading lasp on node: client_3@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:19.310 ***</b>
+Loading lasp on node: client_4@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:20.360 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.004 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.006 ***</b>
+Joining node: server@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58458
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.010 ***</b>
+Joining node: server@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58460
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.025 ***</b>
+Joining node: server@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58462
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.042 ***</b>
+Joining node: server@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58464
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.045 ***</b>
+Joining node: client_1@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58456
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.052 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58460
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.083 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58462
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.087 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58464
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.089 ***</b>
+Joining node: client_2@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58456
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.110 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58458
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.115 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58462
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.117 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58464
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.119 ***</b>
+Joining node: client_3@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58456
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.125 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58458
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.128 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58460
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.132 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_4@MBPdeAnneFrance at port 58464
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.133 ***</b>
+Joining node: client_4@MBPdeAnneFrance to server@MBPdeAnneFrance at port 58456
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.155 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 58458
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.157 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 58460
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.159 ***</b>
+Joining node: client_4@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 58462
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.159 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:12:22.160 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:14:11.431 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 17:14:21.430 ***</b>
+Ending test case code_peer_to_peer_partition_overcounting_test
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2017-04-18 17:14:21
+=== successfully completed test case
+=== Returned value: ok
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>
+</p>
+<div class="copyright">Copyright &copy; 2017 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Tue Apr 18 2017 16:48:25<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

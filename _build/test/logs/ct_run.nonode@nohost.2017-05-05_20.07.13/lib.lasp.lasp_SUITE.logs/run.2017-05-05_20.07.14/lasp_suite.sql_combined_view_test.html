@@ -1,0 +1,416 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test lasp_SUITE:sql_combined_view_test result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="lasp_suite.src.html#sql_combined_view_test-1">lasp_SUITE:sql_combined_view_test/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.501.0&gt;},
+     {tc_logfile,"/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-05-05_20.07.13/lib.lasp.lasp_SUITE.logs/run.2017-05-05_20.07.14/lasp_suite.sql_combined_view_test.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/test/lasp_SUITE_data/"},
+     {priv_dir,"/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-05-05_20.07.13/lib.lasp.lasp_SUITE.logs/run.2017-05-05_20.07.14/log_private/"}]
+
+=== Current directory is "/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-05-05_20.07.13"
+
+=== Started at 2017-05-05 20:08:02
+
+<br />
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.524 ***</b>
+Beginning case: sql_combined_view_test
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.539 ***</b>
+20:08:02.539 [info] Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@MacBook-Pro-de-Anne-France'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.575 ***</b>
+20:08:02.575 [info] Application partisan started on node 'runner@MacBook-Pro-de-Anne-France'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.575 ***</b>
+20:08:02.575 [info] Setting jitter: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.578 ***</b>
+20:08:02.578 [info] Setting tutorial: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.580 ***</b>
+20:08:02.580 [info] Setting event interval: 0
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.583 ***</b>
+20:08:02.583 [info] Setting max events: 1000
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.586 ***</b>
+20:08:02.586 [info] Setting extended logging: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.589 ***</b>
+20:08:02.588 [info] Setting mailbox logging: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.591 ***</b>
+20:08:02.591 [info] Setting operation mode: state_based
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.594 ***</b>
+20:08:02.594 [info] Setting set type: orset
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.599 ***</b>
+20:08:02.598 [info] Setting broadcast: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.640 ***</b>
+20:08:02.640 [info] Membership: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.643 ***</b>
+20:08:02.643 [info] Workflow: true
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.653 ***</b>
+20:08:02.653 [info] AdClientEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.659 ***</b>
+20:08:02.659 [info] AdServerEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.661 ***</b>
+20:08:02.661 [info] TournClientEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.664 ***</b>
+20:08:02.664 [info] TournServerEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.666 ***</b>
+20:08:02.666 [info] ThroughputType: gset
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.669 ***</b>
+20:08:02.669 [info] ThroughputClientEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.671 ***</b>
+20:08:02.671 [info] ThroughputServerEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.674 ***</b>
+20:08:02.674 [info] DivergenceType: gcounter
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.677 ***</b>
+20:08:02.677 [info] DivergenceClientEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.680 ***</b>
+20:08:02.679 [info] DivergenceServerEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:02.693 ***</b>
+20:08:02.693 [info] Application lasp started on node 'runner@MacBook-Pro-de-Anne-France'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:03.938 ***</b>
+20:08:03.938 [info] Enabling membership...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:03.939 ***</b>
+20:08:03.939 [info] Disabling blocking sync...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:03.944 ***</b>
+20:08:03.944 [info] Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@MacBook-Pro-de-Anne-France'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:05.447 ***</b>
+20:08:05.447 [info] Enabling membership...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:05.448 ***</b>
+20:08:05.448 [info] Disabling blocking sync...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:05.453 ***</b>
+20:08:05.453 [info] Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@MacBook-Pro-de-Anne-France'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:06.950 ***</b>
+20:08:06.950 [info] Enabling membership...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:06.952 ***</b>
+20:08:06.952 [info] Disabling blocking sync...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:06.957 ***</b>
+20:08:06.957 [info] Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@MacBook-Pro-de-Anne-France'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:07.195 ***</b>
+Joining node: 'node-3@MacBook-Pro-de-Anne-France' to 'runner@MacBook-Pro-de-Anne-France' at port 57070
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:07.195 ***</b>
+Joining issued: 'node-3@MacBook-Pro-de-Anne-France' to 'runner@MacBook-Pro-de-Anne-France' at port 57070
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:07.195 ***</b>
+Joining node: 'node-2@MacBook-Pro-de-Anne-France' to 'runner@MacBook-Pro-de-Anne-France' at port 57053
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:07.196 ***</b>
+Joining issued: 'node-2@MacBook-Pro-de-Anne-France' to 'runner@MacBook-Pro-de-Anne-France' at port 57053
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:07.196 ***</b>
+Joining node: 'node-1@MacBook-Pro-de-Anne-France' to 'runner@MacBook-Pro-de-Anne-France' at port 57040
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:07.197 ***</b>
+Joining issued: 'node-1@MacBook-Pro-de-Anne-France' to 'runner@MacBook-Pro-de-Anne-France' at port 57040
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:07.258 ***</b>
+Waiting for join to complete with manager: partisan_default_peer_service_manager
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:07.259 ***</b>
+Finished.
+</pre></div>
+<pre>
+</pre>
+<div class="ct_internal"><pre><b>*** CT 2017-05-05 20:08:07.260 *** COVER INFO</b>
+Adding nodes to cover test: ['runner@MacBook-Pro-de-Anne-France']
+</pre></div>
+<pre>
+</pre>
+<div class="ct_internal"><pre><b>*** CT 2017-05-05 20:08:07.269 *** COVER INFO</b>
+Successfully added nodes to cover test: []
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:07.303 ***</b>
+Tokens: [{select,1,select},
+         {var,1,title},
+         {',',1},
+         {var,1,rating},
+         {from,1,from},
+         {var,1,classics},
+         {where,1,where},
+         {var,1,year},
+         {comparator,1,'=>'},
+         {integer,1,1960},
+         {intersection,1,'and'},
+         {var,1,year},
+         {comparator,1,'<='},
+         {integer,1,1965}]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:07.303 ***</b>
+Parse Tree: {query,
+                {select,[title,rating]},
+                {from,classics},
+                {where,
+                    {intersection,
+                        {predicate,{var,year},'=>',1960},
+                        {predicate,{var,year},'<=',1965}}}}
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:07.406 ***</b>
+Tokens: [{select,1,select},
+         {var,1,title},
+         {from,1,from},
+         {var,1,filtered},
+         {where,1,where},
+         {var,1,rating},
+         {comparator,1,'=>'},
+         {integer,1,80}]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:07.406 ***</b>
+Parse Tree: {query,{select,[title]},
+                   {from,filtered},
+                   {where,{predicate,{var,rating},'=>',80}}}
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:07.509 ***</b>
+Case finished: sql_combined_view_test
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:14.560 ***</b>
+20:08:14.560 [info] Application lasp exited with reason: stopped
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-05 20:08:14.561 ***</b>
+20:08:14.560 [info] Application partisan exited with reason: stopped
+
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2017-05-05 20:08:14
+=== successfully completed test case
+=== Returned value: ok
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>
+</p>
+<div class="copyright">Copyright &copy; 2017 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Fri May 05 2017 20:08:02<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

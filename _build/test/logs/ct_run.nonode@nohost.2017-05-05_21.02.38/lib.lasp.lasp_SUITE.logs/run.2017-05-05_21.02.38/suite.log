@@ -1,0 +1,145 @@
+=== Suite started at 2017-05-05 21:02:38
+=== Starting test, 24 test cases
+=cases         24
+=user          anne-francevanswieten
+=host          nohost
+=hosts         nohost 
+=emulator_vsn  8.3
+=emulator      beam
+=otp_release   19
+=started       2017-05-05 21:02:38
+=case          lasp_SUITE:init_per_suite
+=logfile       lasp_suite.init_per_suite.html
+=started       2017-05-05 21:02:38
+=ended         2017-05-05 21:02:39
+=result        ok
+=elapsed       0.453497
+=case          lasp_SUITE:contracted_latency_test
+=logfile       lasp_suite.contracted_latency_test.html
+=started       2017-05-05 21:02:39
+=ended         2017-05-05 21:02:50
+=result        ok
+=elapsed       1.0e-5
+=case          lasp_SUITE:uncontracted_latency_test
+=logfile       lasp_suite.uncontracted_latency_test.html
+=started       2017-05-05 21:02:50
+=ended         2017-05-05 21:03:03
+=result        ok
+=elapsed       1.0e-5
+=case          lasp_SUITE:latency_with_reads_test
+=logfile       lasp_suite.latency_with_reads_test.html
+=started       2017-05-05 21:03:03
+=ended         2017-05-05 21:03:15
+=result        ok
+=elapsed       1.1e-5
+=case          lasp_SUITE:sql_parser_test
+=logfile       lasp_suite.sql_parser_test.html
+=started       2017-05-05 21:03:15
+=ended         2017-05-05 21:03:28
+=result        ok
+=elapsed       0.561012
+=case          lasp_SUITE:sql_combined_view_test
+=logfile       lasp_suite.sql_combined_view_test.html
+=started       2017-05-05 21:03:28
+=ended         2017-05-05 21:03:40
+=result        ok
+=elapsed       0.24352
+=case          lasp_SUITE:sql_simple_contracted_latency_test
+=logfile       lasp_suite.sql_simple_contracted_latency_test.html
+=started       2017-05-05 21:03:40
+=ended         2017-05-05 21:03:52
+=result        ok
+=elapsed       8.0e-6
+=case          lasp_SUITE:sql_simple_uncontracted_latency_test
+=logfile       lasp_suite.sql_simple_uncontracted_latency_test.html
+=started       2017-05-05 21:03:52
+=ended         2017-05-05 21:04:04
+=result        ok
+=elapsed       1.5e-5
+=case          lasp_SUITE:sql_join_contracted_latency_test
+=logfile       lasp_suite.sql_join_contracted_latency_test.html
+=started       2017-05-05 21:04:04
+=ended         2017-05-05 21:04:16
+=result        ok
+=elapsed       9.0e-6
+=case          lasp_SUITE:sql_join_uncontracted_latency_test
+=logfile       lasp_suite.sql_join_uncontracted_latency_test.html
+=started       2017-05-05 21:04:16
+=ended         2017-05-05 21:04:27
+=result        ok
+=elapsed       1.0e-5
+=case          lasp_SUITE:stream_test
+=logfile       lasp_suite.stream_test.html
+=started       2017-05-05 21:04:27
+=ended         2017-05-05 21:04:39
+=result        ok
+=elapsed       0.026677
+=case          lasp_SUITE:query_test
+=logfile       lasp_suite.query_test.html
+=started       2017-05-05 21:04:39
+=ended         2017-05-05 21:04:51
+=result        ok
+=elapsed       0.014707
+=case          lasp_SUITE:transaction_test
+=logfile       lasp_suite.transaction_test.html
+=started       2017-05-05 21:04:51
+=ended         2017-05-05 21:05:03
+=result        failed: {{function_clause,
+                            [{lasp_core,update,
+                                 [<<174,84,20,123,124,18,55,68,39,66,108,178,
+                                    227,29,12,102,29,88,3,27>>,
+                                  orset,<0.4764.0>,
+                                  #Fun<lasp_distribution_backend.35.132945558>,
+                                  #Fun<lasp_distribution_backend.36.132945558>,
+                                  <0.4877.0>],
+                                 [{file,
+                                      "/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/src/lasp_core.erl"},
+                                  {line,430}]},
+                             {lasp_distribution_backend,handle_call,3,
+                                 [{file,
+                                      "/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/src/lasp_distribution_backend.erl"},
+                                  {line,477}]},
+                             {gen_server,try_handle_call,4,
+                                 [{file,"gen_server.erl"},{line,615}]},
+                             {gen_server,handle_msg,5,
+                                 [{file,"gen_server.erl"},{line,647}]},
+                             {proc_lib,init_p_do_apply,3,
+                                 [{file,"proc_lib.erl"},{line,247}]}]},
+                        {gen_server,call,
+                            [lasp_distribution_backend,
+                             {update,
+                                 <<174,84,20,123,124,18,55,68,39,66,108,178,
+                                   227,29,12,102,29,88,3,27>>,
+                                 orset,<0.4764.0>},
+                             infinity]}}, [{gen_server,call,212},
+                                           {lists,foreach,1338},
+                                           {lasp_SUITE,
+                                            '-transaction_test/1-fun-0-',468},
+                                           {lasp_SUITE,transaction_test,468},
+                                           {test_server,ts_tc,1529},
+                                           {test_server,run_test_case_eval1,
+                                            1045},
+                                           {test_server,run_test_case_eval,
+                                            977}]
+=== *** FAILED test case 12 of 24 ***
+=case          lasp_SUITE:ivar_test
+=logfile       lasp_suite.ivar_test.html
+=started       2017-05-05 21:05:03
+=ended         2017-05-05 21:05:19
+=result        ok
+=elapsed       4.011679
+=case          lasp_SUITE:orset_test
+=logfile       lasp_suite.orset_test.html
+=started       2017-05-05 21:05:19
+=ended         2017-05-05 21:05:39
+=result        ok
+=elapsed       8.035931
+=case          lasp_SUITE:awset_ps_test
+=logfile       lasp_suite.awset_ps_test.html
+=started       2017-05-05 21:05:39
+=ended         2017-05-05 21:05:58
+=result        ok
+=elapsed       8.042424
+=case          lasp_SUITE:dynamic_ivar_test
+=logfile       lasp_suite.dynamic_ivar_test.html
+=started       2017-05-05 21:05:58

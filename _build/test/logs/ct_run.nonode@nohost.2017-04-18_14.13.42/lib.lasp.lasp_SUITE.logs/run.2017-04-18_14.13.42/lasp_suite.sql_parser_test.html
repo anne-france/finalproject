@@ -1,0 +1,507 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test lasp_SUITE:sql_parser_test result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="lasp_suite.src.html#sql_parser_test-1">lasp_SUITE:sql_parser_test/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.450.0&gt;},
+     {tc_logfile,"/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-18_14.13.42/lib.lasp.lasp_SUITE.logs/run.2017-04-18_14.13.42/lasp_suite.sql_parser_test.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/test/lasp_SUITE_data/"},
+     {priv_dir,"/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-18_14.13.42/lib.lasp.lasp_SUITE.logs/run.2017-04-18_14.13.42/log_private/"}]
+
+=== Current directory is "/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-18_14.13.42"
+
+=== Started at 2017-04-18 14:14:18
+
+<br />
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.301 ***</b>
+Beginning case: sql_parser_test
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.317 ***</b>
+14:14:18.317 [info] Configured peer_service_manager partisan_default_peer_service_manager on node runner@MBPdeAnneFrance
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.351 ***</b>
+14:14:18.351 [info] Application partisan started on node runner@MBPdeAnneFrance
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.351 ***</b>
+14:14:18.351 [info] Setting jitter: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.354 ***</b>
+14:14:18.354 [info] Setting tutorial: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.356 ***</b>
+14:14:18.356 [info] Setting event interval: 0
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.359 ***</b>
+14:14:18.359 [info] Setting max events: 1000
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.361 ***</b>
+14:14:18.361 [info] Setting extended logging: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.364 ***</b>
+14:14:18.363 [info] Setting mailbox logging: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.366 ***</b>
+14:14:18.366 [info] Setting operation mode: state_based
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.369 ***</b>
+14:14:18.369 [info] Setting set type: orset
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.374 ***</b>
+14:14:18.374 [info] Setting broadcast: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.413 ***</b>
+14:14:18.412 [info] Membership: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.415 ***</b>
+14:14:18.415 [info] Workflow: true
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.425 ***</b>
+14:14:18.425 [info] AdClientEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.430 ***</b>
+14:14:18.430 [info] AdServerEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.433 ***</b>
+14:14:18.433 [info] TournClientEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.435 ***</b>
+14:14:18.435 [info] TournServerEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.438 ***</b>
+14:14:18.438 [info] ThroughputType: gset
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.440 ***</b>
+14:14:18.440 [info] ThroughputClientEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.443 ***</b>
+14:14:18.443 [info] ThroughputServerEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.446 ***</b>
+14:14:18.445 [info] DivergenceType: gcounter
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.448 ***</b>
+14:14:18.448 [info] DivergenceClientEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.450 ***</b>
+14:14:18.450 [info] DivergenceServerEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:18.462 ***</b>
+14:14:18.462 [info] Application lasp started on node runner@MBPdeAnneFrance
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:19.692 ***</b>
+14:14:19.692 [info] Enabling membership...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:19.693 ***</b>
+14:14:19.693 [info] Disabling blocking sync...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:19.697 ***</b>
+14:14:19.697 [info] Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@MBPdeAnneFrance'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:21.179 ***</b>
+14:14:21.179 [info] Enabling membership...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:21.180 ***</b>
+14:14:21.180 [info] Disabling blocking sync...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:21.185 ***</b>
+14:14:21.185 [info] Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@MBPdeAnneFrance'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:22.655 ***</b>
+14:14:22.654 [info] Enabling membership...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:22.656 ***</b>
+14:14:22.656 [info] Disabling blocking sync...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:22.661 ***</b>
+14:14:22.661 [info] Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@MBPdeAnneFrance'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:22.880 ***</b>
+Joining node: 'node-3@MBPdeAnneFrance' to runner@MBPdeAnneFrance at port 49420
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:22.880 ***</b>
+Joining issued: 'node-3@MBPdeAnneFrance' to runner@MBPdeAnneFrance at port 49420
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:22.881 ***</b>
+Joining node: 'node-2@MBPdeAnneFrance' to runner@MBPdeAnneFrance at port 49405
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:22.881 ***</b>
+Joining issued: 'node-2@MBPdeAnneFrance' to runner@MBPdeAnneFrance at port 49405
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:22.882 ***</b>
+Joining node: 'node-1@MBPdeAnneFrance' to runner@MBPdeAnneFrance at port 49394
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:22.882 ***</b>
+Joining issued: 'node-1@MBPdeAnneFrance' to runner@MBPdeAnneFrance at port 49394
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:22.943 ***</b>
+Waiting for join to complete with manager: partisan_default_peer_service_manager
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:22.944 ***</b>
+Finished.
+</pre></div>
+<pre>
+</pre>
+<div class="ct_internal"><pre><b>*** CT 2017-04-18 14:14:22.944 *** COVER INFO</b>
+Adding nodes to cover test: [runner@MBPdeAnneFrance]
+</pre></div>
+<pre>
+</pre>
+<div class="ct_internal"><pre><b>*** CT 2017-04-18 14:14:22.953 *** COVER INFO</b>
+Successfully added nodes to cover test: []
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:22.989 ***</b>
+Tokens: [{select,1,select},
+         {var,1,name},
+         {from,1,from},
+         {var,1,users},
+         {where,1,where},
+         {var,1,age},
+         {comparator,1,'='},
+         {integer,1,22},
+         {union,1,'or'},
+         {var,1,age},
+         {comparator,1,'<'},
+         {integer,1,10}]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:22.989 ***</b>
+Parse Tree: {query,{select,[name]},
+                   {from,users},
+                   {where,{union,{predicate,{var,age},'=',22},
+                                 {predicate,{var,age},'<',10}}}}
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:23.091 ***</b>
+Tokens: [{select,1,select},
+         {var,1,name},
+         {from,1,from},
+         {var,1,users},
+         {where,1,where},
+         {var,1,age},
+         {comparator,1,'<='},
+         {integer,1,22},
+         {intersection,1,'and'},
+         {var,1,age},
+         {comparator,1,'=>'},
+         {integer,1,10}]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:23.092 ***</b>
+Parse Tree: {query,
+                {select,[name]},
+                {from,users},
+                {where,
+                    {intersection,
+                        {predicate,{var,age},'<=',22},
+                        {predicate,{var,age},'=>',10}}}}
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:23.195 ***</b>
+Tokens: [{select,1,select},
+         {var,1,name},
+         {from,1,from},
+         {var,1,users},
+         {where,1,where},
+         {var,1,age},
+         {comparator,1,'<'},
+         {integer,1,22},
+         {intersection,1,'and'},
+         {var,1,age},
+         {comparator,1,'>'},
+         {integer,1,19}]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:23.196 ***</b>
+Parse Tree: {query,
+                {select,[name]},
+                {from,users},
+                {where,
+                    {intersection,
+                        {predicate,{var,age},'<',22},
+                        {predicate,{var,age},'>',19}}}}
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:23.299 ***</b>
+Tokens: [{select,1,select},
+         {var,1,name},
+         {',',1},
+         {var,1,age},
+         {from,1,from},
+         {var,1,users},
+         {where,1,where},
+         {var,1,age},
+         {comparator,1,'<'},
+         {integer,1,22},
+         {intersection,1,'and'},
+         {var,1,age},
+         {comparator,1,'>'},
+         {integer,1,19}]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:23.299 ***</b>
+Parse Tree: {query,
+                {select,[name,age]},
+                {from,users},
+                {where,
+                    {intersection,
+                        {predicate,{var,age},'<',22},
+                        {predicate,{var,age},'>',19}}}}
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:23.401 ***</b>
+Tokens: [{select,1,select},
+         {var,1,name},
+         {',',1},
+         {var,1,age},
+         {from,1,from},
+         {var,1,users},
+         {where,1,where},
+         {var,1,name},
+         {comparator,1,'='},
+         {string,1,"Foo"},
+         {union,1,'or'},
+         {var,1,name},
+         {comparator,1,'='},
+         {string,1,"Baz"}]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:23.402 ***</b>
+Parse Tree: {query,{select,[name,age]},
+                   {from,users},
+                   {where,{union,{predicate,{var,name},'=',"Foo"},
+                                 {predicate,{var,name},'=',"Baz"}}}}
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:23.504 ***</b>
+Case finished: sql_parser_test
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:30.549 ***</b>
+14:14:30.549 [info] Application lasp exited with reason: stopped
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:14:30.549 ***</b>
+14:14:30.549 [info] Application partisan exited with reason: stopped
+
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2017-04-18 14:14:30
+=== successfully completed test case
+=== Returned value: ok
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>
+</p>
+<div class="copyright">Copyright &copy; 2017 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Tue Apr 18 2017 14:14:18<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

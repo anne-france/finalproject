@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="lasp_advertisement_counter_overcounting_suite.src.html#client_server_overcounting_test-1">lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.449.0&gt;},
+     {tc_logfile,"/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-18_14.43.05/lib.lasp.lasp_advertisement_counter_overcounting_SUITE.logs/run.2017-04-18_14.43.05/lasp_advertisement_counter_overcounting_suite.client_server_overcounting_test.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/test/lasp_advertisement_counter_overcounting_SUITE_data/"},
+     {priv_dir,"/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-18_14.43.05/lib.lasp.lasp_advertisement_counter_overcounting_SUITE.logs/run.2017-04-18_14.43.05/log_private/"}]
+
+=== Current directory is "/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-18_14.43.05"
+
+=== Started at 2017-04-18 14:43:05
+
+<br />
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:05.779 ***</b>
+Beginning test case client_server_overcounting_test
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:05.790 ***</b>
+Running client_server_overcounting_test with nodes [server,client_1,client_2,
+                                                    client_3,client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:05.790 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test/1 2017-04-18 14:43:05.855 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::14:43:05 ===
+         application: sasl
+          started_at: runner@MBPdeAnneFrance
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test/1 2017-04-18 14:43:05.864 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::14:43:05 ===
+         application: syntax_tools
+          started_at: runner@MBPdeAnneFrance
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test/1 2017-04-18 14:43:05.876 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::14:43:05 ===
+         application: compiler
+          started_at: runner@MBPdeAnneFrance
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test/1 2017-04-18 14:43:05.886 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::14:43:05 ===
+          supervisor: {local,gr_sup}
+             started: [{pid,&lt;0.477.0&gt;},
+                       {id,gr_counter_sup},
+                       {mfargs,{gr_counter_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test/1 2017-04-18 14:43:05.890 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::14:43:05 ===
+          supervisor: {local,gr_sup}
+             started: [{pid,&lt;0.479.0&gt;},
+                       {id,gr_param_sup},
+                       {mfargs,{gr_param_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test/1 2017-04-18 14:43:05.894 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::14:43:05 ===
+          supervisor: {local,gr_sup}
+             started: [{pid,&lt;0.481.0&gt;},
+                       {id,gr_manager_sup},
+                       {mfargs,{gr_manager_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test/1 2017-04-18 14:43:05.894 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::14:43:05 ===
+         application: goldrush
+          started_at: runner@MBPdeAnneFrance
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test/1 2017-04-18 14:43:05.902 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::14:43:05 ===
+          supervisor: {local,lager_sup}
+             started: [{pid,&lt;0.488.0&gt;},
+                       {id,lager},
+                       {mfargs,{gen_event,start_link,[{local,lager_event}]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test/1 2017-04-18 14:43:05.904 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::14:43:05 ===
+          supervisor: {local,lager_sup}
+             started: [{pid,&lt;0.490.0&gt;},
+                       {id,lager_handler_watcher_sup},
+                       {mfargs,{lager_handler_watcher_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test/1 2017-04-18 14:43:05.908 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::14:43:05 ===
+          supervisor: {local,lager_sup}
+             started: [{pid,&lt;0.492.0&gt;},
+                       {id,lager_crash_log},
+                       {mfargs,
+                           {lager_crash_log,start_link,
+                               ["log/crash.log",65536,10485760,[{hour,0}],5]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:05.973 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:05.976 ***</b>
+14:43:05.973 [info] Application lager started on node runner@MBPdeAnneFrance
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:07.086 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:08.165 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:09.241 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:10.315 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:11.388 ***</b>
+Loading lasp on node: server@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:11.423 ***</b>
+Loading lasp on node: client_1@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:11.458 ***</b>
+Loading lasp on node: client_2@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:11.495 ***</b>
+Loading lasp on node: client_3@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:11.536 ***</b>
+Loading lasp on node: client_4@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="ct_error_notify"><pre><b>*** CT Error Notification 2017-04-18 14:43:11.758 ***</b>
+lasp_simulation_support:'-start/3-fun-2-' failed on line 171
+Reason: case_clause
+
+<a href="#end">Full error description and stacktrace</a>
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 14:43:11.759 ***</b>
+Ending test case client_server_overcounting_test
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2017-04-18 14:43:11
+=== Location: [{lasp_simulation_support,'-start/3-fun-2-',171},
+              {lists,map,1239},
+              {lasp_simulation_support,start,284},
+              {lasp_simulation_support,'-run/3-fun-0-',40},
+              {lists,foreach,1338},
+              {lasp_advertisement_counter_overcounting_SUITE,client_server_overcounting_test,<a href="lasp_advertisement_counter_overcounting_suite.src.html#80">80</a>},
+              {test_server,ts_tc,1529},
+              {test_server,run_test_case_eval1,1045}]
+=== Reason: no case clause matching ad_counter_overcounting
+  in function  lasp_simulation_support:'-start/3-fun-2-'/4 (/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/simulations/lasp_simulation_support.erl, line 171)
+  in call from lists:map/2 (lists.erl, line 1239)
+  in call from lasp_simulation_support:start/3 (/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/simulations/lasp_simulation_support.erl, line 284)
+  in call from lasp_simulation_support:'-run/3-fun-0-'/6 (/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/simulations/lasp_simulation_support.erl, line 40)
+  in call from lists:foreach/2 (lists.erl, line 1338)
+  in call from lasp_advertisement_counter_overcounting_SUITE:client_server_overcounting_test/1 (/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/test/lasp_advertisement_counter_overcounting_SUITE.erl, line 80)
+  in call from test_server:ts_tc/3 (test_server.erl, line 1529)
+  in call from test_server:run_test_case_eval1/6 (test_server.erl, line 1045)
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>
+</p>
+<div class="copyright">Copyright &copy; 2017 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Tue Apr 18 2017 14:43:05<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

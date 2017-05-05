@@ -1,0 +1,32 @@
+2017-05-05 19:45:41 =ERROR REPORT====
+Supervisor received unexpected message: {gen_event_EXIT,{partisan_peer_service_events,#Ref<0.0.2.312>},shutdown}
+2017-05-05 19:47:47 =ERROR REPORT====
+** Generic server lasp_distribution_backend terminating 
+** Last message in was {update,<<174,84,20,123,124,18,55,68,39,66,108,178,227,29,12,102,29,88,3,27>>,ivar,a}
+** When Server state == {state,<0.4880.0>,[],<<15,160,22,237,169,36,35,132,160,60,52,63,12,167,9,242,48,237,172,189>>}
+** Reason for termination == 
+** {function_clause,[{lasp_core,update,[<<174,84,20,123,124,18,55,68,39,66,108,178,227,29,12,102,29,88,3,27>>,ivar,a,#Fun<lasp_distribution_backend.35.132945558>,#Fun<lasp_distribution_backend.36.132945558>,<0.4880.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/src/lasp_distribution_backend.erl"},{line,477}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-05-05 19:47:47 =CRASH REPORT====
+  crasher:
+    initial call: lasp_distribution_backend:init/1
+    pid: <0.4878.0>
+    registered_name: lasp_distribution_backend
+    exception exit: {{function_clause,[{lasp_core,update,[<<174,84,20,123,124,18,55,68,39,66,108,178,227,29,12,102,29,88,3,27>>,ivar,a,#Fun<lasp_distribution_backend.35.132945558>,#Fun<lasp_distribution_backend.36.132945558>,<0.4880.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/src/lasp_distribution_backend.erl"},{line,477}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_sup,<0.4810.0>]
+    messages: []
+    links: [<0.4880.0>,<0.4881.0>,<0.4811.0>]
+    dictionary: [{rand_seed,{#{max => 288230376151711743,next => #Fun<rand.8.41921595>,type => exsplus,uniform => #Fun<rand.9.41921595>,uniform_n => #Fun<rand.10.41921595>},[139986061311751947|4105303493524163]}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 2536
+  neighbours:
+    neighbour: [{pid,<0.4881.0>},{registered_name,lasp_state_based_synchronization_backend},{initial_call,{lasp_state_based_synchronization_backend,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[lasp_distribution_backend,lasp_sup,<0.4810.0>]},{messages,[]},{links,[<0.4878.0>]},{dictionary,[{rand_seed,{#{max => 288230376151711743,next => #Fun<rand.8.41921595>,type => exsplus,uniform => #Fun<rand.9.41921595>,uniform_n => #Fun<rand.10.41921595>},[132960939872269343|155336910731537976]}}]},{trap_exit,false},{status,waiting},{heap_size,610},{stack_size,9},{reductions,187}]
+    neighbour: [{pid,<0.4880.0>},{registered_name,lasp_ets_storage_backend},{initial_call,{lasp_ets_storage_backend,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[lasp_distribution_backend,lasp_sup,<0.4810.0>]},{messages,[]},{links,[<0.4878.0>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,9},{reductions,49}]
+2017-05-05 19:47:47 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{lasp_core,update,[<<174,84,20,123,124,18,55,68,39,66,108,178,227,29,12,102,29,88,3,27>>,ivar,a,#Fun<lasp_distribution_backend.35.132945558>,#Fun<lasp_distribution_backend.36.132945558>,<0.4880.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/src/lasp_distribution_backend.erl"},{line,477}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.4878.0>},{id,lasp_distribution_backend},{mfargs,{lasp_distribution_backend,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+

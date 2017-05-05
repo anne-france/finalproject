@@ -1,0 +1,53 @@
+2017-04-18 14:15:10.345 [info] <0.31.0> Application lager started on node 'node-3@MBPdeAnneFrance'
+2017-04-18 14:15:10.345 [info] <0.31.0> Application time_compat started on node 'node-3@MBPdeAnneFrance'
+2017-04-18 14:15:10.360 [info] <0.31.0> Application os_mon started on node 'node-3@MBPdeAnneFrance'
+2017-04-18 14:15:10.370 [info] <0.31.0> Application riak_dt started on node 'node-3@MBPdeAnneFrance'
+2017-04-18 14:15:10.370 [info] <0.31.0> Application lasp_support started on node 'node-3@MBPdeAnneFrance'
+2017-04-18 14:15:10.371 [info] <0.31.0> Application rand_compat started on node 'node-3@MBPdeAnneFrance'
+2017-04-18 14:15:10.373 [info] <0.31.0> Application acceptor_pool started on node 'node-3@MBPdeAnneFrance'
+2017-04-18 14:15:10.424 [info] <0.31.0> Application partisan started on node 'node-3@MBPdeAnneFrance'
+2017-04-18 14:15:10.432 [info] <0.31.0> Application plumtree started on node 'node-3@MBPdeAnneFrance'
+2017-04-18 14:15:10.432 [info] <0.211.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-04-18 14:15:10.436 [info] <0.211.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-04-18 14:15:10.437 [info] <0.211.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-04-18 14:15:10.438 [info] <0.211.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-04-18 14:15:10.439 [info] <0.211.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-04-18 14:15:10.441 [info] <0.211.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-04-18 14:15:10.442 [info] <0.211.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-04-18 14:15:10.443 [info] <0.211.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-04-18 14:15:10.445 [info] <0.211.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-04-18 14:15:10.467 [info] <0.211.0>@lasp_sup:init:88 Membership: true
+2017-04-18 14:15:10.468 [info] <0.211.0>@lasp_sup:init:106 Workflow: true
+2017-04-18 14:15:10.472 [info] <0.211.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-04-18 14:15:10.474 [info] <0.211.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-04-18 14:15:10.476 [info] <0.211.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-04-18 14:15:10.477 [info] <0.211.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-04-18 14:15:10.478 [info] <0.211.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-04-18 14:15:10.479 [info] <0.211.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-04-18 14:15:10.480 [info] <0.211.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-04-18 14:15:10.482 [info] <0.211.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-04-18 14:15:10.483 [info] <0.211.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-04-18 14:15:10.484 [info] <0.211.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-04-18 14:15:10.492 [info] <0.189.0>@lasp_membership:update_membership:115 Attempting to update membership; state: {state_orset,[{{'node-3@MBPdeAnneFrance',{127,0,0,1},49634},[{<<188,2,197,108,62,112,179,195,93,157,250,123,238,215,111,147,228,39,250,27>>,true}]}]}
+2017-04-18 14:15:10.494 [info] <0.189.0>@lasp_membership:update_membership:120 Declared dynamic membership: {<<"_membership">>,lwwregister}
+2017-04-18 14:15:10.494 [info] <0.189.0>@lasp_membership:update_membership:124 Decoded membership: ['node-3@MBPdeAnneFrance']
+2017-04-18 14:15:10.499 [info] <0.189.0>@lasp_membership:update_membership:128 Updated membership: {<<"_membership">>,lwwregister}
+2017-04-18 14:15:10.502 [info] <0.31.0> Application lasp started on node 'node-3@MBPdeAnneFrance'
+2017-04-18 14:15:10.504 [info] <0.189.0>@lasp_membership:update_membership:115 Attempting to update membership; state: {state_orset,[{{'node-3@MBPdeAnneFrance',{127,0,0,1},49634},[{<<188,2,197,108,62,112,179,195,93,157,250,123,238,215,111,147,228,39,250,27>>,true}]},{{runner@MBPdeAnneFrance,{127,0,0,1},49219},[{<<255,104,147,238,7,96,25,174,128,203,136,151,203,138,65,182,245,50,5,235>>,true}]}]}
+2017-04-18 14:15:10.504 [info] <0.189.0>@lasp_membership:update_membership:120 Declared dynamic membership: {<<"_membership">>,lwwregister}
+2017-04-18 14:15:10.504 [info] <0.189.0>@lasp_membership:update_membership:124 Decoded membership: ['node-3@MBPdeAnneFrance',runner@MBPdeAnneFrance]
+2017-04-18 14:15:10.512 [info] <0.189.0>@lasp_membership:update_membership:128 Updated membership: {<<"_membership">>,lwwregister}
+2017-04-18 14:15:10.512 [info] <0.189.0>@lasp_membership:update_membership:115 Attempting to update membership; state: {state_orset,[{{'node-2@MBPdeAnneFrance',{127,0,0,1},49619},[{<<32,165,101,41,121,78,134,48,144,71,5,159,165,6,165,243,80,70,69,73>>,true}]},{{'node-3@MBPdeAnneFrance',{127,0,0,1},49634},[{<<188,2,197,108,62,112,179,195,93,157,250,123,238,215,111,147,228,39,250,27>>,true}]},{{runner@MBPdeAnneFrance,{127,0,0,1},49219},[{<<255,104,147,238,7,96,25,174,128,203,136,151,203,138,65,182,245,50,5,235>>,true}]}]}
+2017-04-18 14:15:10.513 [info] <0.189.0>@lasp_membership:update_membership:120 Declared dynamic membership: {<<"_membership">>,lwwregister}
+2017-04-18 14:15:10.513 [info] <0.189.0>@lasp_membership:update_membership:124 Decoded membership: ['node-2@MBPdeAnneFrance','node-3@MBPdeAnneFrance',runner@MBPdeAnneFrance]
+2017-04-18 14:15:10.518 [info] <0.189.0>@lasp_membership:update_membership:128 Updated membership: {<<"_membership">>,lwwregister}
+2017-04-18 14:15:10.522 [info] <0.189.0>@lasp_membership:update_membership:115 Attempting to update membership; state: {state_orset,[{{'node-1@MBPdeAnneFrance',{127,0,0,1},49608},[{<<82,192,81,229,162,12,158,146,165,142,184,85,136,76,186,111,150,52,21,30>>,true}]},{{'node-2@MBPdeAnneFrance',{127,0,0,1},49619},[{<<32,165,101,41,121,78,134,48,144,71,5,159,165,6,165,243,80,70,69,73>>,true}]},{{'node-3@MBPdeAnneFrance',{127,0,0,1},49634},[{<<188,2,197,108,62,112,179,195,93,157,250,123,238,215,111,147,228,39,250,27>>,true}]},{{runner@MBPdeAnneFrance,{127,0,0,1},49219},[{<<255,104,147,238,7,96,25,174,128,203,136,151,203,138,65,182,245,50,5,235>>,true}]}]}
+2017-04-18 14:15:10.522 [info] <0.189.0>@lasp_membership:update_membership:120 Declared dynamic membership: {<<"_membership">>,lwwregister}
+2017-04-18 14:15:10.522 [info] <0.189.0>@lasp_membership:update_membership:124 Decoded membership: ['node-2@MBPdeAnneFrance','node-3@MBPdeAnneFrance','node-1@MBPdeAnneFrance',runner@MBPdeAnneFrance]
+2017-04-18 14:15:10.527 [info] <0.189.0>@lasp_membership:update_membership:128 Updated membership: {<<"_membership">>,lwwregister}
+2017-04-18 14:15:10.527 [info] <0.189.0>@lasp_membership:update_membership:115 Attempting to update membership; state: {state_orset,[{{'node-1@MBPdeAnneFrance',{127,0,0,1},49608},[{<<82,192,81,229,162,12,158,146,165,142,184,85,136,76,186,111,150,52,21,30>>,true}]},{{'node-2@MBPdeAnneFrance',{127,0,0,1},49619},[{<<32,165,101,41,121,78,134,48,144,71,5,159,165,6,165,243,80,70,69,73>>,true}]},{{'node-3@MBPdeAnneFrance',{127,0,0,1},49634},[{<<188,2,197,108,62,112,179,195,93,157,250,123,238,215,111,147,228,39,250,27>>,true}]},{{runner@MBPdeAnneFrance,{127,0,0,1},49219},[{<<255,104,147,238,7,96,25,174,128,203,136,151,203,138,65,182,245,50,5,235>>,true}]}]}
+2017-04-18 14:15:10.528 [info] <0.189.0>@lasp_membership:update_membership:120 Declared dynamic membership: {<<"_membership">>,lwwregister}
+2017-04-18 14:15:10.528 [info] <0.189.0>@lasp_membership:update_membership:124 Decoded membership: ['node-2@MBPdeAnneFrance','node-3@MBPdeAnneFrance','node-1@MBPdeAnneFrance',runner@MBPdeAnneFrance]
+2017-04-18 14:15:10.533 [info] <0.189.0>@lasp_membership:update_membership:128 Updated membership: {<<"_membership">>,lwwregister}
+2017-04-18 14:15:15.611 [info] <0.189.0>@partisan_peer_service_events:handle_info:96 Unhandled message: {'EXIT',<0.261.0>,shutdown}
+2017-04-18 14:15:15.612 [info] <0.193.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.5803>

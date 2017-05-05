@@ -1,0 +1,2000 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test lasp_advertisement_counter_partition_overcounting_SUITE:client_server_partition_overcounting_test result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="lasp_advertisement_counter_partition_overcounting_suite.src.html#client_server_partition_overcounting_test-1">lasp_advertisement_counter_partition_overcounting_SUITE:client_server_partition_overcounting_test/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,infinity},
+     {tc_logfile,"/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-05-02_18.12.44/lib.lasp.lasp_advertisement_counter_partition_overcounting_SUITE.logs/run.2017-05-02_18.12.45/lasp_advertisement_counter_partition_overcounting_suite.client_server_partition_overcounting_test.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/test/lasp_advertisement_counter_partition_overcounting_SUITE_data/"},
+     {priv_dir,"/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-05-02_18.12.44/lib.lasp.lasp_advertisement_counter_partition_overcounting_SUITE.logs/run.2017-05-02_18.12.45/log_private/"}]
+
+=== Current directory is "/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-05-02_18.12.44"
+
+=== Started at 2017-05-02 18:12:45
+
+<br />
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:45.132 ***</b>
+Beginning test case client_server_partition_overcounting_test
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:45.144 ***</b>
+Running client_server_partition_overcounting_test with nodes [server,client_1,
+                                                              client_2,
+                                                              client_3,
+                                                              client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:45.144 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_partition_overcounting_SUITE:client_server_partition_overcounting_test/1 2017-05-02 18:12:45.203 ***</b>
+
+=PROGRESS REPORT==== 2-May-2017::18:12:45 ===
+         application: sasl
+          started_at: 'runner@MacBook-Pro-de-Anne-France'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_partition_overcounting_SUITE:client_server_partition_overcounting_test/1 2017-05-02 18:12:45.212 ***</b>
+
+=PROGRESS REPORT==== 2-May-2017::18:12:45 ===
+         application: syntax_tools
+          started_at: 'runner@MacBook-Pro-de-Anne-France'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_partition_overcounting_SUITE:client_server_partition_overcounting_test/1 2017-05-02 18:12:45.223 ***</b>
+
+=PROGRESS REPORT==== 2-May-2017::18:12:45 ===
+         application: compiler
+          started_at: 'runner@MacBook-Pro-de-Anne-France'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_partition_overcounting_SUITE:client_server_partition_overcounting_test/1 2017-05-02 18:12:45.235 ***</b>
+
+=PROGRESS REPORT==== 2-May-2017::18:12:45 ===
+          supervisor: {local,gr_sup}
+             started: [{pid,&lt;0.479.0&gt;},
+                       {id,gr_counter_sup},
+                       {mfargs,{gr_counter_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_partition_overcounting_SUITE:client_server_partition_overcounting_test/1 2017-05-02 18:12:45.239 ***</b>
+
+=PROGRESS REPORT==== 2-May-2017::18:12:45 ===
+          supervisor: {local,gr_sup}
+             started: [{pid,&lt;0.481.0&gt;},
+                       {id,gr_param_sup},
+                       {mfargs,{gr_param_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_partition_overcounting_SUITE:client_server_partition_overcounting_test/1 2017-05-02 18:12:45.242 ***</b>
+
+=PROGRESS REPORT==== 2-May-2017::18:12:45 ===
+          supervisor: {local,gr_sup}
+             started: [{pid,&lt;0.483.0&gt;},
+                       {id,gr_manager_sup},
+                       {mfargs,{gr_manager_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_partition_overcounting_SUITE:client_server_partition_overcounting_test/1 2017-05-02 18:12:45.242 ***</b>
+
+=PROGRESS REPORT==== 2-May-2017::18:12:45 ===
+         application: goldrush
+          started_at: 'runner@MacBook-Pro-de-Anne-France'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_partition_overcounting_SUITE:client_server_partition_overcounting_test/1 2017-05-02 18:12:45.251 ***</b>
+
+=PROGRESS REPORT==== 2-May-2017::18:12:45 ===
+          supervisor: {local,lager_sup}
+             started: [{pid,&lt;0.490.0&gt;},
+                       {id,lager},
+                       {mfargs,{gen_event,start_link,[{local,lager_event}]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_partition_overcounting_SUITE:client_server_partition_overcounting_test/1 2017-05-02 18:12:45.253 ***</b>
+
+=PROGRESS REPORT==== 2-May-2017::18:12:45 ===
+          supervisor: {local,lager_sup}
+             started: [{pid,&lt;0.492.0&gt;},
+                       {id,lager_handler_watcher_sup},
+                       {mfargs,{lager_handler_watcher_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_advertisement_counter_partition_overcounting_SUITE:client_server_partition_overcounting_test/1 2017-05-02 18:12:45.255 ***</b>
+
+=PROGRESS REPORT==== 2-May-2017::18:12:45 ===
+          supervisor: {local,lager_sup}
+             started: [{pid,&lt;0.494.0&gt;},
+                       {id,lager_crash_log},
+                       {mfargs,
+                           {lager_crash_log,start_link,
+                               ["log/crash.log",65536,10485760,[{hour,0}],5]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:45.321 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:45.323 ***</b>
+18:12:45.320 [info] Application lager started on node 'runner@MacBook-Pro-de-Anne-France'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:46.433 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:47.503 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:48.573 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:49.642 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:50.715 ***</b>
+Loading lasp on node: 'server@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:50.747 ***</b>
+Loading lasp on node: 'client_1@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:50.780 ***</b>
+Loading lasp on node: 'client_2@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:50.811 ***</b>
+Loading lasp on node: 'client_3@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:50.845 ***</b>
+Loading lasp on node: 'client_4@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:51.861 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.266 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.266 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 58820
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.269 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 58822
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.270 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 58824
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.273 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 58827
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.274 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 58818
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.277 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 58822
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.278 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 58824
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.279 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 58827
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.280 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 58818
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.283 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 58820
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.284 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 58824
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.285 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 58827
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.286 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 58818
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.289 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 58820
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.290 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 58822
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.291 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 58827
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.292 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 58818
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.295 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 58820
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.296 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 58822
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.297 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 58824
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.298 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:12:53.298 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:43.310 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:53.401 ***</b>
+Running client_server_partition_overcounting_test with nodes [server,client_1,
+                                                              client_2,
+                                                              client_3,
+                                                              client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:53.401 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:53.409 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:54.484 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:55.556 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:56.628 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:57.698 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:58.775 ***</b>
+Loading lasp on node: 'server@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:58.811 ***</b>
+Loading lasp on node: 'client_1@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:58.847 ***</b>
+Loading lasp on node: 'client_2@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:58.882 ***</b>
+Loading lasp on node: 'client_3@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:58.924 ***</b>
+Loading lasp on node: 'client_4@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:14:59.962 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.358 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.359 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59052
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.361 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59054
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.363 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59056
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.366 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59059
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.367 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59050
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.371 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59054
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.372 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59056
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.373 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59059
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.373 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59050
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.377 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59052
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.378 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59056
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.379 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59059
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.380 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59050
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.383 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59052
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.384 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59054
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.385 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59059
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.386 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59050
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.389 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59052
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.390 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59054
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.391 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59056
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.392 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:15:01.392 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:01.405 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:11.497 ***</b>
+Running client_server_partition_overcounting_test with nodes [server,client_1,
+                                                              client_2,
+                                                              client_3,
+                                                              client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:11.497 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:11.505 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:12.574 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:13.643 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:14.714 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:15.784 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:16.855 ***</b>
+Loading lasp on node: 'server@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:16.887 ***</b>
+Loading lasp on node: 'client_1@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:16.919 ***</b>
+Loading lasp on node: 'client_2@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:16.951 ***</b>
+Loading lasp on node: 'client_3@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:16.981 ***</b>
+Loading lasp on node: 'client_4@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:17.934 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.238 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.238 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59295
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.241 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59297
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.242 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59299
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.243 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59302
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.244 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59293
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.247 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59297
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.248 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59299
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.249 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59302
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.250 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59293
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.253 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59295
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.254 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59299
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.255 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59302
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.256 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59293
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.259 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59295
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.260 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59297
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.260 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59302
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.262 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59293
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.264 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59295
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.265 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59297
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.266 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59299
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.267 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:17:19.267 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:19:19.283 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:02.263 ***</b>
+Running client_server_partition_overcounting_test with nodes [server,client_1,
+                                                              client_2,
+                                                              client_3,
+                                                              client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:02.263 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:02.271 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:03.340 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:04.408 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:05.478 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:06.576 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:07.673 ***</b>
+Loading lasp on node: 'server@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:07.719 ***</b>
+Loading lasp on node: 'client_1@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:07.764 ***</b>
+Loading lasp on node: 'client_2@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:07.823 ***</b>
+Loading lasp on node: 'client_3@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:07.870 ***</b>
+Loading lasp on node: 'client_4@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:09.144 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.040 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.040 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59537
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.044 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59540
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.045 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59542
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.046 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59544
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.050 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59534
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.054 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59540
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.055 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59542
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.056 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59544
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.057 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59534
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.064 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59537
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.066 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59542
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.067 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59544
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.070 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59534
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.077 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59537
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.080 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59540
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.081 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59544
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.082 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59534
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.088 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59537
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.089 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59540
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.091 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59542
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.091 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:50:11.092 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:20.240 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:30.268 ***</b>
+Running client_server_partition_overcounting_test with nodes [server,client_1,
+                                                              client_2,
+                                                              client_3,
+                                                              client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:30.268 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:30.279 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:31.385 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:32.450 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:33.523 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:34.590 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:35.655 ***</b>
+Loading lasp on node: 'server@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:35.687 ***</b>
+Loading lasp on node: 'client_1@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:35.722 ***</b>
+Loading lasp on node: 'client_2@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:35.756 ***</b>
+Loading lasp on node: 'client_3@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:35.788 ***</b>
+Loading lasp on node: 'client_4@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:36.834 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.319 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.319 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59876
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.322 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59878
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.323 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59881
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.324 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59883
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.325 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59873
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.329 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59878
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.330 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59881
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.331 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59883
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.333 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59873
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.336 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59876
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.337 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59881
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.338 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59883
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.339 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59873
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.343 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59876
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.344 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59878
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.345 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 59883
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.346 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 59873
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.350 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 59876
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.351 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 59878
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.352 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 59881
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.353 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:52:38.353 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:54:57.284 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:07.287 ***</b>
+Running client_server_partition_overcounting_test with nodes [server,client_1,
+                                                              client_2,
+                                                              client_3,
+                                                              client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:07.287 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:07.296 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:08.358 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:09.419 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:10.487 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:11.559 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:12.624 ***</b>
+Loading lasp on node: 'server@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:12.659 ***</b>
+Loading lasp on node: 'client_1@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:12.693 ***</b>
+Loading lasp on node: 'client_2@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:12.728 ***</b>
+Loading lasp on node: 'client_3@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:12.767 ***</b>
+Loading lasp on node: 'client_4@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:13.841 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.331 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.332 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 60141
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.335 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 60143
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.336 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 60145
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.337 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 60147
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.340 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 60139
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.344 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 60143
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.345 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 60145
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.346 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 60147
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.347 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 60139
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.349 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 60141
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.351 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 60145
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.352 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 60147
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.353 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 60139
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.357 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 60141
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.358 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 60143
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.359 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 60147
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.360 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 60139
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.363 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 60141
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.364 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 60143
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.365 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 60145
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.366 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:55:15.366 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:33.782 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:43.787 ***</b>
+Running client_server_partition_overcounting_test with nodes [server,client_1,
+                                                              client_2,
+                                                              client_3,
+                                                              client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:43.787 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:43.795 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:44.871 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:45.948 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:47.026 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:48.091 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:49.154 ***</b>
+Loading lasp on node: 'server@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:49.186 ***</b>
+Loading lasp on node: 'client_1@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:49.222 ***</b>
+Loading lasp on node: 'client_2@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:49.256 ***</b>
+Loading lasp on node: 'client_3@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:49.292 ***</b>
+Loading lasp on node: 'client_4@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:50.359 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.792 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.792 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 60463
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.796 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 60466
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.797 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 60469
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.800 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 60472
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.801 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 60461
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.805 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 60466
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.806 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 60469
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.807 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 60472
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.808 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 60461
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.812 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 60463
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.813 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 60469
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.814 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 60472
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.815 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 60461
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.818 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 60463
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.820 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 60466
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.821 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 60472
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.822 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 60461
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.825 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 60463
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.826 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 60466
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.828 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 60469
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.829 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 18:58:51.829 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:00.423 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:10.427 ***</b>
+Running client_server_partition_overcounting_test with nodes [server,client_1,
+                                                              client_2,
+                                                              client_3,
+                                                              client_4]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:10.427 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:10.435 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:11.497 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:12.557 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:13.619 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:14.679 ***</b>
+Starting node: client_4
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:15.750 ***</b>
+Loading lasp on node: 'server@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:15.786 ***</b>
+Loading lasp on node: 'client_1@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:15.821 ***</b>
+Loading lasp on node: 'client_2@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:15.856 ***</b>
+Loading lasp on node: 'client_3@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:15.895 ***</b>
+Loading lasp on node: 'client_4@MacBook-Pro-de-Anne-France'
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:16.925 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.312 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.312 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 60776
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.315 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 60778
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.316 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 60780
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.318 ***</b>
+Joining node: 'server@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 60782
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.319 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 60774
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.323 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 60778
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.324 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 60780
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.325 ***</b>
+Joining node: 'client_1@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 60782
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.326 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 60774
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.329 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 60776
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.331 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 60780
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.332 ***</b>
+Joining node: 'client_2@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 60782
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.332 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 60774
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.336 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 60776
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.337 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 60778
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.338 ***</b>
+Joining node: 'client_3@MacBook-Pro-de-Anne-France' to 'client_4@MacBook-Pro-de-Anne-France' at port 60782
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.339 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'server@MacBook-Pro-de-Anne-France' at port 60774
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.342 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_1@MacBook-Pro-de-Anne-France' at port 60776
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.344 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_2@MacBook-Pro-de-Anne-France' at port 60778
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.344 ***</b>
+Joining node: 'client_4@MacBook-Pro-de-Anne-France' to 'client_3@MacBook-Pro-de-Anne-France' at port 60780
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.345 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:02:18.345 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:05:36.867 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-05-02 19:05:46.863 ***</b>
+Ending test case client_server_partition_overcounting_test
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2017-05-02 19:05:46
+=== successfully completed test case
+=== Returned value: ok
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>
+</p>
+<div class="copyright">Copyright &copy; 2017 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Tue May 02 2017 18:12:45<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,55 @@
+2017-05-02 17:28:51.333 [info] <0.31.0> Application lager started on node 'node-3@MacBook-Pro-de-Anne-France'
+2017-05-02 17:28:51.333 [info] <0.31.0> Application time_compat started on node 'node-3@MacBook-Pro-de-Anne-France'
+2017-05-02 17:28:51.353 [info] <0.31.0> Application os_mon started on node 'node-3@MacBook-Pro-de-Anne-France'
+2017-05-02 17:28:51.359 [info] <0.77.0> alarm_handler: {set,{system_memory_high_watermark,[]}}
+2017-05-02 17:28:51.362 [info] <0.31.0> Application riak_dt started on node 'node-3@MacBook-Pro-de-Anne-France'
+2017-05-02 17:28:51.362 [info] <0.31.0> Application lasp_support started on node 'node-3@MacBook-Pro-de-Anne-France'
+2017-05-02 17:28:51.364 [info] <0.31.0> Application rand_compat started on node 'node-3@MacBook-Pro-de-Anne-France'
+2017-05-02 17:28:51.367 [info] <0.31.0> Application acceptor_pool started on node 'node-3@MacBook-Pro-de-Anne-France'
+2017-05-02 17:28:51.432 [info] <0.31.0> Application partisan started on node 'node-3@MacBook-Pro-de-Anne-France'
+2017-05-02 17:28:51.443 [info] <0.31.0> Application plumtree started on node 'node-3@MacBook-Pro-de-Anne-France'
+2017-05-02 17:28:51.443 [info] <0.211.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-02 17:28:51.447 [info] <0.211.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-02 17:28:51.448 [info] <0.211.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-02 17:28:51.449 [info] <0.211.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-02 17:28:51.450 [info] <0.211.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-02 17:28:51.452 [info] <0.211.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-02 17:28:51.453 [info] <0.211.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-02 17:28:51.454 [info] <0.211.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-02 17:28:51.456 [info] <0.211.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-02 17:28:51.475 [info] <0.211.0>@lasp_sup:init:88 Membership: true
+2017-05-02 17:28:51.476 [info] <0.211.0>@lasp_sup:init:106 Workflow: true
+2017-05-02 17:28:51.480 [info] <0.211.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-02 17:28:51.482 [info] <0.211.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-02 17:28:51.483 [info] <0.211.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-02 17:28:51.484 [info] <0.211.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-02 17:28:51.485 [info] <0.211.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-02 17:28:51.486 [info] <0.211.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-02 17:28:51.487 [info] <0.211.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-02 17:28:51.488 [info] <0.211.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-02 17:28:51.490 [info] <0.211.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-02 17:28:51.491 [info] <0.211.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-02 17:28:51.499 [info] <0.189.0>@lasp_membership:update_membership:115 Attempting to update membership; state: {state_orset,[{{'node-3@MacBook-Pro-de-Anne-France',{127,0,0,1},54978},[{<<214,12,74,203,207,146,190,251,64,74,130,120,240,219,61,94,228,164,201,169>>,true}]}]}
+2017-05-02 17:28:51.500 [info] <0.189.0>@lasp_membership:update_membership:120 Declared dynamic membership: {<<"_membership">>,lwwregister}
+2017-05-02 17:28:51.500 [info] <0.189.0>@lasp_membership:update_membership:124 Decoded membership: ['node-3@MacBook-Pro-de-Anne-France']
+2017-05-02 17:28:51.506 [info] <0.189.0>@lasp_membership:update_membership:128 Updated membership: {<<"_membership">>,lwwregister}
+2017-05-02 17:28:51.508 [info] <0.31.0> Application lasp started on node 'node-3@MacBook-Pro-de-Anne-France'
+2017-05-02 17:28:51.513 [info] <0.189.0>@lasp_membership:update_membership:115 Attempting to update membership; state: {state_orset,[{{'node-3@MacBook-Pro-de-Anne-France',{127,0,0,1},54978},[{<<214,12,74,203,207,146,190,251,64,74,130,120,240,219,61,94,228,164,201,169>>,true}]},{{'runner@MacBook-Pro-de-Anne-France',{127,0,0,1},54940},[{<<181,176,255,122,245,34,111,96,32,90,161,201,43,154,173,165,79,252,35,57>>,true}]}]}
+2017-05-02 17:28:51.513 [info] <0.189.0>@lasp_membership:update_membership:120 Declared dynamic membership: {<<"_membership">>,lwwregister}
+2017-05-02 17:28:51.514 [info] <0.189.0>@lasp_membership:update_membership:124 Decoded membership: ['runner@MacBook-Pro-de-Anne-France','node-3@MacBook-Pro-de-Anne-France']
+2017-05-02 17:28:51.522 [info] <0.189.0>@lasp_membership:update_membership:128 Updated membership: {<<"_membership">>,lwwregister}
+2017-05-02 17:28:51.522 [info] <0.189.0>@lasp_membership:update_membership:115 Attempting to update membership; state: {state_orset,[{{'node-2@MacBook-Pro-de-Anne-France',{127,0,0,1},54962},[{<<96,37,212,204,121,175,89,35,204,237,124,121,222,194,128,16,197,244,130,139>>,true}]},{{'node-3@MacBook-Pro-de-Anne-France',{127,0,0,1},54978},[{<<214,12,74,203,207,146,190,251,64,74,130,120,240,219,61,94,228,164,201,169>>,true}]},{{'runner@MacBook-Pro-de-Anne-France',{127,0,0,1},54940},[{<<181,176,255,122,245,34,111,96,32,90,161,201,43,154,173,165,79,252,35,57>>,true}]}]}
+2017-05-02 17:28:51.522 [info] <0.189.0>@lasp_membership:update_membership:120 Declared dynamic membership: {<<"_membership">>,lwwregister}
+2017-05-02 17:28:51.522 [info] <0.189.0>@lasp_membership:update_membership:124 Decoded membership: ['runner@MacBook-Pro-de-Anne-France','node-2@MacBook-Pro-de-Anne-France','node-3@MacBook-Pro-de-Anne-France']
+2017-05-02 17:28:51.530 [info] <0.189.0>@lasp_membership:update_membership:128 Updated membership: {<<"_membership">>,lwwregister}
+2017-05-02 17:28:51.534 [info] <0.189.0>@lasp_membership:update_membership:115 Attempting to update membership; state: {state_orset,[{{'node-1@MacBook-Pro-de-Anne-France',{127,0,0,1},54949},[{<<98,139,230,194,104,224,30,95,175,216,224,136,229,89,240,167,82,189,230,15>>,true}]},{{'node-2@MacBook-Pro-de-Anne-France',{127,0,0,1},54962},[{<<96,37,212,204,121,175,89,35,204,237,124,121,222,194,128,16,197,244,130,139>>,true}]},{{'node-3@MacBook-Pro-de-Anne-France',{127,0,0,1},54978},[{<<214,12,74,203,207,146,190,251,64,74,130,120,240,219,61,94,228,164,201,169>>,true}]},{{'runner@MacBook-Pro-de-Anne-France',{127,0,0,1},54940},[{<<181,176,255,122,245,34,111,96,32,90,161,201,43,154,173,165,79,252,35,57>>,true}]}]}
+2017-05-02 17:28:51.534 [info] <0.189.0>@lasp_membership:update_membership:120 Declared dynamic membership: {<<"_membership">>,lwwregister}
+2017-05-02 17:28:51.534 [info] <0.189.0>@lasp_membership:update_membership:124 Decoded membership: ['runner@MacBook-Pro-de-Anne-France','node-1@MacBook-Pro-de-Anne-France','node-2@MacBook-Pro-de-Anne-France','node-3@MacBook-Pro-de-Anne-France']
+2017-05-02 17:28:51.539 [info] <0.189.0>@lasp_membership:update_membership:128 Updated membership: {<<"_membership">>,lwwregister}
+2017-05-02 17:28:51.539 [info] <0.189.0>@lasp_membership:update_membership:115 Attempting to update membership; state: {state_orset,[{{'node-1@MacBook-Pro-de-Anne-France',{127,0,0,1},54949},[{<<98,139,230,194,104,224,30,95,175,216,224,136,229,89,240,167,82,189,230,15>>,true}]},{{'node-2@MacBook-Pro-de-Anne-France',{127,0,0,1},54962},[{<<96,37,212,204,121,175,89,35,204,237,124,121,222,194,128,16,197,244,130,139>>,true}]},{{'node-3@MacBook-Pro-de-Anne-France',{127,0,0,1},54978},[{<<214,12,74,203,207,146,190,251,64,74,130,120,240,219,61,94,228,164,201,169>>,true}]},{{'runner@MacBook-Pro-de-Anne-France',{127,0,0,1},54940},[{<<181,176,255,122,245,34,111,96,32,90,161,201,43,154,173,165,79,252,35,57>>,true}]}]}
+2017-05-02 17:28:51.540 [info] <0.189.0>@lasp_membership:update_membership:120 Declared dynamic membership: {<<"_membership">>,lwwregister}
+2017-05-02 17:28:51.540 [info] <0.189.0>@lasp_membership:update_membership:124 Decoded membership: ['runner@MacBook-Pro-de-Anne-France','node-1@MacBook-Pro-de-Anne-France','node-2@MacBook-Pro-de-Anne-France','node-3@MacBook-Pro-de-Anne-France']
+2017-05-02 17:28:51.545 [info] <0.189.0>@lasp_membership:update_membership:128 Updated membership: {<<"_membership">>,lwwregister}
+2017-05-02 17:28:56.635 [info] <0.189.0>@partisan_peer_service_events:handle_info:96 Unhandled message: {'EXIT',<0.261.0>,shutdown}
+2017-05-02 17:28:56.636 [info] <0.193.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.5803>
+2017-05-02 17:28:56.637 [info] <0.77.0> alarm_handler: {clear,system_memory_high_watermark}

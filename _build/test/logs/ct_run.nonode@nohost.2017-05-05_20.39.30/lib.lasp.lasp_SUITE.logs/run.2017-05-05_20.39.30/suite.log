@@ -1,0 +1,210 @@
+=== Suite started at 2017-05-05 20:39:30
+=== Starting test, 24 test cases
+=cases         24
+=user          anne-francevanswieten
+=host          nohost
+=hosts         nohost 
+=emulator_vsn  8.3
+=emulator      beam
+=otp_release   19
+=started       2017-05-05 20:39:30
+=case          lasp_SUITE:init_per_suite
+=logfile       lasp_suite.init_per_suite.html
+=started       2017-05-05 20:39:30
+=ended         2017-05-05 20:39:31
+=result        ok
+=elapsed       0.45409
+=case          lasp_SUITE:contracted_latency_test
+=logfile       lasp_suite.contracted_latency_test.html
+=started       2017-05-05 20:39:31
+=ended         2017-05-05 20:39:42
+=result        ok
+=elapsed       9.0e-6
+=case          lasp_SUITE:uncontracted_latency_test
+=logfile       lasp_suite.uncontracted_latency_test.html
+=started       2017-05-05 20:39:42
+=ended         2017-05-05 20:39:54
+=result        ok
+=elapsed       1.0e-5
+=case          lasp_SUITE:latency_with_reads_test
+=logfile       lasp_suite.latency_with_reads_test.html
+=started       2017-05-05 20:39:54
+=ended         2017-05-05 20:40:06
+=result        ok
+=elapsed       1.0e-5
+=case          lasp_SUITE:sql_parser_test
+=logfile       lasp_suite.sql_parser_test.html
+=started       2017-05-05 20:40:06
+=ended         2017-05-05 20:40:18
+=result        ok
+=elapsed       0.551121
+=case          lasp_SUITE:sql_combined_view_test
+=logfile       lasp_suite.sql_combined_view_test.html
+=started       2017-05-05 20:40:18
+=ended         2017-05-05 20:40:30
+=result        ok
+=elapsed       0.238773
+=case          lasp_SUITE:sql_simple_contracted_latency_test
+=logfile       lasp_suite.sql_simple_contracted_latency_test.html
+=started       2017-05-05 20:40:30
+=ended         2017-05-05 20:40:42
+=result        ok
+=elapsed       9.0e-6
+=case          lasp_SUITE:sql_simple_uncontracted_latency_test
+=logfile       lasp_suite.sql_simple_uncontracted_latency_test.html
+=started       2017-05-05 20:40:42
+=ended         2017-05-05 20:40:54
+=result        ok
+=elapsed       1.1e-5
+=case          lasp_SUITE:sql_join_contracted_latency_test
+=logfile       lasp_suite.sql_join_contracted_latency_test.html
+=started       2017-05-05 20:40:54
+=ended         2017-05-05 20:41:05
+=result        ok
+=elapsed       8.0e-6
+=case          lasp_SUITE:sql_join_uncontracted_latency_test
+=logfile       lasp_suite.sql_join_uncontracted_latency_test.html
+=started       2017-05-05 20:41:05
+=ended         2017-05-05 20:41:17
+=result        ok
+=elapsed       1.1e-5
+=case          lasp_SUITE:stream_test
+=logfile       lasp_suite.stream_test.html
+=started       2017-05-05 20:41:17
+=ended         2017-05-05 20:41:29
+=result        ok
+=elapsed       0.026558
+=case          lasp_SUITE:query_test
+=logfile       lasp_suite.query_test.html
+=started       2017-05-05 20:41:29
+=ended         2017-05-05 20:41:41
+=result        ok
+=elapsed       0.012283
+=case          lasp_SUITE:transaction_test
+=logfile       lasp_suite.transaction_test.html
+=started       2017-05-05 20:41:41
+=ended         2017-05-05 20:41:53
+=result        failed: {{function_clause,
+                            [{lasp_core,update,
+                                 [<<174,84,20,123,124,18,55,68,39,66,108,178,
+                                    227,29,12,102,29,88,3,27>>,
+                                  orset,a,
+                                  #Fun<lasp_distribution_backend.35.132945558>,
+                                  #Fun<lasp_distribution_backend.36.132945558>,
+                                  <0.4880.0>],
+                                 [{file,
+                                      "/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/src/lasp_core.erl"},
+                                  {line,430}]},
+                             {lasp_distribution_backend,handle_call,3,
+                                 [{file,
+                                      "/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/src/lasp_distribution_backend.erl"},
+                                  {line,477}]},
+                             {gen_server,try_handle_call,4,
+                                 [{file,"gen_server.erl"},{line,615}]},
+                             {gen_server,handle_msg,5,
+                                 [{file,"gen_server.erl"},{line,647}]},
+                             {proc_lib,init_p_do_apply,3,
+                                 [{file,"proc_lib.erl"},{line,247}]}]},
+                        {gen_server,call,
+                            [lasp_distribution_backend,
+                             {update,
+                                 <<174,84,20,123,124,18,55,68,39,66,108,178,
+                                   227,29,12,102,29,88,3,27>>,
+                                 orset,a},
+                             infinity]}}, [{gen_server,call,212},
+                                           {lists,foreach,1338},
+                                           {lasp_SUITE,
+                                            '-transaction_test/1-fun-0-',468},
+                                           {lasp_SUITE,transaction_test,468},
+                                           {test_server,ts_tc,1529},
+                                           {test_server,run_test_case_eval1,
+                                            1045},
+                                           {test_server,run_test_case_eval,
+                                            977}]
+=== *** FAILED test case 12 of 24 ***
+=case          lasp_SUITE:ivar_test
+=logfile       lasp_suite.ivar_test.html
+=started       2017-05-05 20:41:53
+=ended         2017-05-05 20:42:08
+=result        ok
+=elapsed       4.011131
+=case          lasp_SUITE:orset_test
+=logfile       lasp_suite.orset_test.html
+=started       2017-05-05 20:42:08
+=ended         2017-05-05 20:42:28
+=result        ok
+=elapsed       8.034781
+=case          lasp_SUITE:awset_ps_test
+=logfile       lasp_suite.awset_ps_test.html
+=started       2017-05-05 20:42:28
+=ended         2017-05-05 20:42:48
+=result        ok
+=elapsed       8.04227
+=case          lasp_SUITE:dynamic_ivar_test
+=logfile       lasp_suite.dynamic_ivar_test.html
+=started       2017-05-05 20:42:48
+=ended         2017-05-05 20:43:00
+=result        ok
+=elapsed       0.017481
+=case          lasp_SUITE:monotonic_read_test
+=logfile       lasp_suite.monotonic_read_test.html
+=started       2017-05-05 20:43:00
+=ended         2017-05-05 20:43:12
+=result        ok
+=elapsed       0.045956
+=case          lasp_SUITE:map_test
+=logfile       lasp_suite.map_test.html
+=started       2017-05-05 20:43:12
+=ended         2017-05-05 20:43:32
+=result        ok
+=elapsed       8.024489
+=case          lasp_SUITE:filter_test
+=logfile       lasp_suite.filter_test.html
+=started       2017-05-05 20:43:32
+=ended         2017-05-05 20:43:52
+=result        ok
+=elapsed       8.023453
+=case          lasp_SUITE:union_test
+=logfile       lasp_suite.union_test.html
+=started       2017-05-05 20:43:52
+=ended         2017-05-05 20:44:04
+=result        ok
+=elapsed       0.41967
+=case          lasp_SUITE:product_test
+=logfile       lasp_suite.product_test.html
+=started       2017-05-05 20:44:04
+=ended         2017-05-05 20:44:16
+=result        ok
+=elapsed       0.418278
+=case          lasp_SUITE:intersection_test
+=logfile       lasp_suite.intersection_test.html
+=started       2017-05-05 20:44:16
+=ended         2017-05-05 20:44:29
+=result        ok
+=elapsed       0.418782
+=case          lasp_SUITE:membership_test
+=logfile       lasp_suite.membership_test.html
+=started       2017-05-05 20:44:29
+=ended         2017-05-05 20:44:50
+=result        ok
+=elapsed       10.001952
+=case          lasp_SUITE:enforce_once_test
+=logfile       lasp_suite.enforce_once_test.html
+=started       2017-05-05 20:44:50
+=ended         2017-05-05 20:45:12
+=result        ok
+=elapsed       10.034353
+=case          lasp_SUITE:end_per_suite
+=logfile       lasp_suite.end_per_suite.html
+=started       2017-05-05 20:45:12
+=ended         2017-05-05 20:45:12
+=result        ok
+=elapsed       3.8e-5
+=group_time    342.098s
+=== TEST COMPLETE, 23 ok, 1 failed of 24 test cases
+
+=finished      2017-05-05 20:45:12
+=failed        1
+=successful    23
+=user_skipped  0
+=auto_skipped  0

@@ -1,0 +1,48 @@
+=== Suite started at 2017-04-18 16:08:31
+=== Starting test, 3 test cases
+=cases         3
+=user          anne-francevanswieten
+=host          nohost
+=hosts         nohost 
+=emulator_vsn  8.3
+=emulator      beam
+=otp_release   19
+=started       2017-04-18 16:08:31
+=case          lasp_advertisement_counter_partition_overcounting_SUITE:init_per_suite
+=logfile       lasp_advertisement_counter_partition_overcounting_suite.init_per_suite.html
+=started       2017-04-18 16:08:31
+=ended         2017-04-18 16:08:31
+=result        ok
+=elapsed       2.0e-6
+=case          lasp_advertisement_counter_partition_overcounting_SUITE:client_server_partition_overcounting_test
+=logfile       lasp_advertisement_counter_partition_overcounting_suite.client_server_partition_overcounting_test.html
+=started       2017-04-18 16:08:31
+=ended         2017-04-18 16:30:07
+=result        ok
+=elapsed       1296.024966
+=case          lasp_advertisement_counter_partition_overcounting_SUITE:peer_to_peer_partition_overcounting_test
+=logfile       lasp_advertisement_counter_partition_overcounting_suite.peer_to_peer_partition_overcounting_test.html
+=started       2017-04-18 16:30:08
+=ended         2017-04-18 16:48:25
+=result        ok
+=elapsed       1044.558934
+=case          lasp_advertisement_counter_partition_overcounting_SUITE:code_peer_to_peer_partition_overcounting_test
+=logfile       lasp_advertisement_counter_partition_overcounting_suite.code_peer_to_peer_partition_overcounting_test.html
+=started       2017-04-18 16:48:25
+=ended         2017-04-18 17:14:21
+=result        ok
+=elapsed       1028.070396
+=case          lasp_advertisement_counter_partition_overcounting_SUITE:end_per_suite
+=logfile       lasp_advertisement_counter_partition_overcounting_suite.end_per_suite.html
+=started       2017-04-18 17:14:21
+=ended         2017-04-18 17:14:21
+=result        ok
+=elapsed       1.0e-6
+=group_time    3949.554s
+=== TEST COMPLETE, 3 ok, 0 failed of 3 test cases
+
+=finished      2017-04-18 17:14:21
+=failed        0
+=successful    3
+=user_skipped  0
+=auto_skipped  0

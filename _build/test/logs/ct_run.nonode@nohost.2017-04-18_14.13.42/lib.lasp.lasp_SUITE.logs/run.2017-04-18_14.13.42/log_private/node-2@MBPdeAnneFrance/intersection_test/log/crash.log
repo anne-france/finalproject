@@ -1,0 +1,22 @@
+2017-04-18 14:18:25 =ERROR REPORT====
+** Generic server lasp_state_based_synchronization_backend terminating 
+** Last message in was {'$gen_cast',{state_send,runner@MBPdeAnneFrance,{{<<174,13,140,148,147,29,12,27,159,35,136,174,70,96,128,193,60,131,254,231>>,orset},orset,[{clock,[{<<88,187,239,251,6,248,173,180,239,198,130,205,7,216,236,175,175,16,134,174>>,2}]}],{state_orset,[{3,[{<<0,14,179,104,235,184,216,132,189,129,242,17,205,202,84,186,3,37,230,171>>,true}]},{a,[{<<235,92,64,127,232,231,191,197,119,32,39,60,195,20,209,55,217,12,74,86>>,true}]},{b,[{<<98,209,34,52,244,125,222,162,208,29,84,151,46,118,60,153,223,154,11,218>>,true}]}]}},false}}
+** When Server state == {state,<0.253.0>,[],<<55,23,170,195,205,61,141,216,153,125,232,94,110,68,55,236,28,234,34,138>>,{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}}}
+** Reason for termination == 
+** {{noproc,{gen_server,call,[lasp_process_sup,{start_child,[1,[[{<0.254.0>,#Fun<lasp_process.2.113180209>}],#Fun<lasp_process.3.113180209>,{{<<174,13,140,148,147,29,12,27,159,35,136,174,70,96,128,193,60,131,254,231>>,orset},#Fun<lasp_process.4.113180209>}]]},infinity]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,212}]},{lasp_process,single_fire_function,4,[{file,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/src/lasp_process.erl"},{line,138}]},{lasp_core,receive_value,2,[{file,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/src/lasp_core.erl"},{line,972}]},{lasp_state_based_synchronization_backend,handle_cast,2,[{file,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/src/lasp_state_based_synchronization_backend.erl"},{line,180}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,601}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,667}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-04-18 14:18:25 =CRASH REPORT====
+  crasher:
+    initial call: lasp_state_based_synchronization_backend:init/1
+    pid: <0.254.0>
+    registered_name: lasp_state_based_synchronization_backend
+    exception exit: {{noproc,{gen_server,call,[lasp_process_sup,{start_child,[1,[[{<0.254.0>,#Fun<lasp_process.2.113180209>}],#Fun<lasp_process.3.113180209>,{{<<174,13,140,148,147,29,12,27,159,35,136,174,70,96,128,193,60,131,254,231>>,orset},#Fun<lasp_process.4.113180209>}]]},infinity]}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_distribution_backend,lasp_sup,<0.205.0>]
+    messages: [{'$gen_cast',{state_send,runner@MBPdeAnneFrance,{{<<214,122,248,87,154,88,105,34,249,146,238,149,132,90,157,52,47,236,34,155>>,orset},orset,[{clock,[{<<88,187,239,251,6,248,173,180,239,198,130,205,7,216,236,175,175,16,134,174>>,1}]}],{state_orset,[{3,[{<<161,111,201,108,6,183,243,187,40,13,163,160,220,166,76,64,91,142,243,30>>,true},{<<0,14,179,104,235,184,216,132,189,129,242,17,205,202,84,186,3,37,230,171>>,true}]}]}},false}}]
+    links: []
+    dictionary: [{rand_seed,{#{max => 288230376151711743,next => #Fun<rand.8.41921595>,type => exsplus,uniform => #Fun<rand.9.41921595>,uniform_n => #Fun<rand.10.41921595>},[202846187784398918|229516345911404317]}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 800
+  neighbours:

@@ -1,0 +1,2 @@
+2017-04-18 14:13:54.954 [error] <0.579.0> Supervisor received unexpected message: {gen_event_EXIT,{partisan_peer_service_events,#Ref<0.0.1.8720>},shutdown}
+2017-04-18 14:15:41.025 [error] <0.3958.0> Supervisor partisan_pool had child {partisan_peer_service_server,undefined,undefined,undefined} started with {partisan_peer_service_server,acceptor_init,undefined} at 1 exit with reason noproc in context shutdown_error

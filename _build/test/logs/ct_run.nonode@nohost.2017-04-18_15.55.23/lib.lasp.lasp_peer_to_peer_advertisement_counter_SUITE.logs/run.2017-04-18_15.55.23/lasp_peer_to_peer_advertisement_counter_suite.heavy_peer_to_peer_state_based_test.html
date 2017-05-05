@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test lasp_peer_to_peer_advertisement_counter_SUITE:heavy_peer_to_peer_state_based_test result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="lasp_peer_to_peer_advertisement_counter_suite.src.html#heavy_peer_to_peer_state_based_test-1">lasp_peer_to_peer_advertisement_counter_SUITE:heavy_peer_to_peer_state_based_test/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.449.0&gt;},
+     {tc_logfile,"/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-18_15.55.23/lib.lasp.lasp_peer_to_peer_advertisement_counter_SUITE.logs/run.2017-04-18_15.55.23/lasp_peer_to_peer_advertisement_counter_suite.heavy_peer_to_peer_state_based_test.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/Users/anne-francevanswieten/lasp/_build/test/lib/lasp/test/lasp_peer_to_peer_advertisement_counter_SUITE_data/"},
+     {priv_dir,"/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-18_15.55.23/lib.lasp.lasp_peer_to_peer_advertisement_counter_SUITE.logs/run.2017-04-18_15.55.23/log_private/"}]
+
+=== Current directory is "/Users/anne-francevanswieten/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-18_15.55.23"
+
+=== Started at 2017-04-18 15:55:23
+
+<br />
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:23.399 ***</b>
+Beginning test case heavy_peer_to_peer_state_based_test
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:23.409 ***</b>
+Running peer_to_peer_ad_counter_state_based_test with nodes [server,client_1,
+                                                             client_2,
+                                                             client_3]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:23.409 ***</b>
+Launching Erlang distribution...
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_peer_to_peer_advertisement_counter_SUITE:heavy_peer_to_peer_state_based_test/1 2017-04-18 15:55:23.471 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::15:55:23 ===
+         application: sasl
+          started_at: runner@MBPdeAnneFrance
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_peer_to_peer_advertisement_counter_SUITE:heavy_peer_to_peer_state_based_test/1 2017-04-18 15:55:23.481 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::15:55:23 ===
+         application: syntax_tools
+          started_at: runner@MBPdeAnneFrance
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_peer_to_peer_advertisement_counter_SUITE:heavy_peer_to_peer_state_based_test/1 2017-04-18 15:55:23.492 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::15:55:23 ===
+         application: compiler
+          started_at: runner@MBPdeAnneFrance
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_peer_to_peer_advertisement_counter_SUITE:heavy_peer_to_peer_state_based_test/1 2017-04-18 15:55:23.501 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::15:55:23 ===
+          supervisor: {local,gr_sup}
+             started: [{pid,&lt;0.476.0&gt;},
+                       {id,gr_counter_sup},
+                       {mfargs,{gr_counter_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_peer_to_peer_advertisement_counter_SUITE:heavy_peer_to_peer_state_based_test/1 2017-04-18 15:55:23.504 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::15:55:23 ===
+          supervisor: {local,gr_sup}
+             started: [{pid,&lt;0.478.0&gt;},
+                       {id,gr_param_sup},
+                       {mfargs,{gr_param_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_peer_to_peer_advertisement_counter_SUITE:heavy_peer_to_peer_state_based_test/1 2017-04-18 15:55:23.507 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::15:55:23 ===
+          supervisor: {local,gr_sup}
+             started: [{pid,&lt;0.480.0&gt;},
+                       {id,gr_manager_sup},
+                       {mfargs,{gr_manager_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_peer_to_peer_advertisement_counter_SUITE:heavy_peer_to_peer_state_based_test/1 2017-04-18 15:55:23.508 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::15:55:23 ===
+         application: goldrush
+          started_at: runner@MBPdeAnneFrance
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_peer_to_peer_advertisement_counter_SUITE:heavy_peer_to_peer_state_based_test/1 2017-04-18 15:55:23.516 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::15:55:23 ===
+          supervisor: {local,lager_sup}
+             started: [{pid,&lt;0.487.0&gt;},
+                       {id,lager},
+                       {mfargs,{gen_event,start_link,[{local,lager_event}]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_peer_to_peer_advertisement_counter_SUITE:heavy_peer_to_peer_state_based_test/1 2017-04-18 15:55:23.518 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::15:55:23 ===
+          supervisor: {local,lager_sup}
+             started: [{pid,&lt;0.489.0&gt;},
+                       {id,lager_handler_watcher_sup},
+                       {mfargs,{lager_handler_watcher_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during lasp_peer_to_peer_advertisement_counter_SUITE:heavy_peer_to_peer_state_based_test/1 2017-04-18 15:55:23.520 ***</b>
+
+=PROGRESS REPORT==== 18-Apr-2017::15:55:23 ===
+          supervisor: {local,lager_sup}
+             started: [{pid,&lt;0.491.0&gt;},
+                       {id,lager_crash_log},
+                       {mfargs,
+                           {lager_crash_log,start_link,
+                               ["log/crash.log",65536,10485760,[{hour,0}],5]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:23.587 ***</b>
+Starting node: server
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:23.589 ***</b>
+15:55:23.587 [info] Application lager started on node runner@MBPdeAnneFrance
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:24.696 ***</b>
+Starting node: client_1
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:25.772 ***</b>
+Starting node: client_2
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:26.876 ***</b>
+Starting node: client_3
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:27.960 ***</b>
+Loading lasp on node: server@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:27.990 ***</b>
+Loading lasp on node: client_1@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:28.021 ***</b>
+Loading lasp on node: client_2@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:28.052 ***</b>
+Loading lasp on node: client_3@MBPdeAnneFrance
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:28.849 ***</b>
+Starting lasp.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.073 ***</b>
+Custering nodes...
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.073 ***</b>
+Joining node: server@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 54347
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.074 ***</b>
+Joining node: server@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 54349
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.078 ***</b>
+Joining node: server@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 54351
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.079 ***</b>
+Joining node: client_1@MBPdeAnneFrance to server@MBPdeAnneFrance at port 54345
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.083 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 54349
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.084 ***</b>
+Joining node: client_1@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 54351
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.085 ***</b>
+Joining node: client_2@MBPdeAnneFrance to server@MBPdeAnneFrance at port 54345
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.087 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 54347
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.088 ***</b>
+Joining node: client_2@MBPdeAnneFrance to client_3@MBPdeAnneFrance at port 54351
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.090 ***</b>
+Joining node: client_3@MBPdeAnneFrance to server@MBPdeAnneFrance at port 54345
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.093 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_1@MBPdeAnneFrance at port 54347
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.095 ***</b>
+Joining node: client_3@MBPdeAnneFrance to client_2@MBPdeAnneFrance at port 54349
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.097 ***</b>
+Lasp fully initialized.
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:55:30.097 ***</b>
+Waiting for simulation to end
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:57:40.110 ***</b>
+Simulation ended with success
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-18 15:57:48.238 ***</b>
+Ending test case heavy_peer_to_peer_state_based_test
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2017-04-18 15:57:48
+=== successfully completed test case
+=== Returned value: ok
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>
+</p>
+<div class="copyright">Copyright &copy; 2017 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Tue Apr 18 2017 15:55:23<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,54 @@
+=== Suite started at 2017-04-18 17:14:25
+=== Starting test, 4 test cases
+=cases         4
+=user          anne-francevanswieten
+=host          nohost
+=hosts         nohost 
+=emulator_vsn  8.3
+=emulator      beam
+=otp_release   19
+=started       2017-04-18 17:14:26
+=case          lasp_client_server_game_tournament_SUITE:init_per_suite
+=logfile       lasp_client_server_game_tournament_suite.init_per_suite.html
+=started       2017-04-18 17:14:26
+=ended         2017-04-18 17:14:26
+=result        ok
+=elapsed       2.0e-6
+=case          lasp_client_server_game_tournament_SUITE:client_server_state_based_test
+=logfile       lasp_client_server_game_tournament_suite.client_server_state_based_test.html
+=started       2017-04-18 17:14:26
+=ended         2017-04-18 17:15:20
+=result        ok
+=elapsed       54.427179
+=case          lasp_client_server_game_tournament_SUITE:client_server_delta_based_test
+=logfile       lasp_client_server_game_tournament_suite.client_server_delta_based_test.html
+=started       2017-04-18 17:15:20
+=ended         2017-04-18 17:16:14
+=result        ok
+=elapsed       54.219706
+=case          lasp_client_server_game_tournament_SUITE:reactive_client_server_state_based_test
+=logfile       lasp_client_server_game_tournament_suite.reactive_client_server_state_based_test.html
+=started       2017-04-18 17:16:14
+=ended         2017-04-18 17:17:09
+=result        ok
+=elapsed       54.236125
+=case          lasp_client_server_game_tournament_SUITE:reactive_client_server_delta_based_test
+=logfile       lasp_client_server_game_tournament_suite.reactive_client_server_delta_based_test.html
+=started       2017-04-18 17:17:09
+=ended         2017-04-18 17:18:03
+=result        ok
+=elapsed       54.233423
+=case          lasp_client_server_game_tournament_SUITE:end_per_suite
+=logfile       lasp_client_server_game_tournament_suite.end_per_suite.html
+=started       2017-04-18 17:18:03
+=ended         2017-04-18 17:18:03
+=result        ok
+=elapsed       1.0e-6
+=group_time    217.274s
+=== TEST COMPLETE, 4 ok, 0 failed of 4 test cases
+
+=finished      2017-04-18 17:18:03
+=failed        0
+=successful    4
+=user_skipped  0
+=auto_skipped  0
