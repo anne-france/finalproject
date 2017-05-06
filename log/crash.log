@@ -1,0 +1,344 @@
+2017-05-05 01:17:51 =ERROR REPORT====
+** Generic server lasp_distribution_backend terminating 
+** Last message in was {update,<<"source">>,state_orset,<0.196.0>}
+** When Server state == {state,<0.351.0>,[],<<170,227,142,126,63,64,19,227,195,66,39,125,58,195,75,134,148,109,168,79>>}
+** Reason for termination == 
+** {function_clause,[{lasp_core,update,[<<"source">>,state_orset,<0.196.0>,#Fun<lasp_distribution_backend.38.830585>,#Fun<lasp_distribution_backend.39.830585>,<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_distribution_backend.erl"},{line,473}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-05-05 01:17:51 =CRASH REPORT====
+  crasher:
+    initial call: lasp_distribution_backend:init/1
+    pid: <0.349.0>
+    registered_name: lasp_distribution_backend
+    exception exit: {{function_clause,[{lasp_core,update,[<<"source">>,state_orset,<0.196.0>,#Fun<lasp_distribution_backend.38.830585>,#Fun<lasp_distribution_backend.39.830585>,<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_distribution_backend.erl"},{line,473}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_sup,<0.303.0>]
+    messages: []
+    links: [<0.351.0>,<0.352.0>,<0.304.0>]
+    dictionary: [{rand_seed,{#{max => 288230376151711743,next => #Fun<rand.8.41921595>,type => exsplus,uniform => #Fun<rand.9.41921595>,uniform_n => #Fun<rand.10.41921595>},[107688768146077261|108497681724263889]}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 2525
+  neighbours:
+    neighbour: [{pid,<0.352.0>},{registered_name,lasp_state_based_synchronization_backend},{initial_call,{lasp_state_based_synchronization_backend,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[lasp_distribution_backend,lasp_sup,<0.303.0>]},{messages,[]},{links,[<0.349.0>]},{dictionary,[{rand_seed,{#{max => 288230376151711743,next => #Fun<rand.8.41921595>,type => exsplus,uniform => #Fun<rand.9.41921595>,uniform_n => #Fun<rand.10.41921595>},[127627654156748256|88538145761747465]}}]},{trap_exit,false},{status,waiting},{heap_size,610},{stack_size,9},{reductions,8285}]
+    neighbour: [{pid,<0.351.0>},{registered_name,lasp_ets_storage_backend},{initial_call,{lasp_ets_storage_backend,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[lasp_distribution_backend,lasp_sup,<0.303.0>]},{messages,[]},{links,[<0.349.0>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,9},{reductions,38}]
+2017-05-05 01:17:51 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{lasp_core,update,[<<"source">>,state_orset,<0.196.0>,#Fun<lasp_distribution_backend.38.830585>,#Fun<lasp_distribution_backend.39.830585>,<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_distribution_backend.erl"},{line,473}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.349.0>},{id,lasp_distribution_backend},{mfargs,{lasp_distribution_backend,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 01:25:14 =ERROR REPORT====
+** Generic server lasp_distribution_backend terminating 
+** Last message in was {update,<<"source">>,state_orset,<0.368.0>}
+** When Server state == {state,<0.370.0>,[],<<92,80,24,107,115,239,13,85,245,0,204,53,64,186,240,160,172,143,148,61>>}
+** Reason for termination == 
+** {function_clause,[{lasp_core,update,[<<"source">>,state_orset,<0.368.0>,#Fun<lasp_distribution_backend.38.830585>,#Fun<lasp_distribution_backend.39.830585>,<0.370.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_distribution_backend.erl"},{line,473}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-05-05 01:25:14 =CRASH REPORT====
+  crasher:
+    initial call: lasp_distribution_backend:init/1
+    pid: <0.366.0>
+    registered_name: lasp_distribution_backend
+    exception exit: {{function_clause,[{lasp_core,update,[<<"source">>,state_orset,<0.368.0>,#Fun<lasp_distribution_backend.38.830585>,#Fun<lasp_distribution_backend.39.830585>,<0.370.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_distribution_backend.erl"},{line,473}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_sup,<0.303.0>]
+    messages: []
+    links: [<0.370.0>,<0.371.0>,<0.304.0>]
+    dictionary: [{rand_seed,{#{max => 288230376151711743,next => #Fun<rand.8.41921595>,type => exsplus,uniform => #Fun<rand.9.41921595>,uniform_n => #Fun<rand.10.41921595>},[103358263297940305|40800450508934376]}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 2598
+  neighbours:
+    neighbour: [{pid,<0.371.0>},{registered_name,lasp_state_based_synchronization_backend},{initial_call,{lasp_state_based_synchronization_backend,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[lasp_distribution_backend,lasp_sup,<0.303.0>]},{messages,[]},{links,[<0.366.0>]},{dictionary,[{rand_seed,{#{max => 288230376151711743,next => #Fun<rand.8.41921595>,type => exsplus,uniform => #Fun<rand.9.41921595>,uniform_n => #Fun<rand.10.41921595>},[217903475484954919|214455375648387740]}}]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,9},{reductions,7883}]
+    neighbour: [{pid,<0.370.0>},{registered_name,lasp_ets_storage_backend},{initial_call,{lasp_ets_storage_backend,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[lasp_distribution_backend,lasp_sup,<0.303.0>]},{messages,[]},{links,[<0.366.0>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,376},{stack_size,9},{reductions,175}]
+2017-05-05 01:25:14 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{lasp_core,update,[<<"source">>,state_orset,<0.368.0>,#Fun<lasp_distribution_backend.38.830585>,#Fun<lasp_distribution_backend.39.830585>,<0.370.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_distribution_backend.erl"},{line,473}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.366.0>},{id,lasp_distribution_backend},{mfargs,{lasp_distribution_backend,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 02:18:21 =ERROR REPORT====
+** Generic server lasp_distribution_backend terminating 
+** Last message in was {update,<<"source">>,state_orset,<0.196.0>}
+** When Server state == {state,<0.351.0>,[],<<170,227,142,126,63,64,19,227,195,66,39,125,58,195,75,134,148,109,168,79>>}
+** Reason for termination == 
+** {function_clause,[{lasp_core,update,[<<"source">>,state_orset,<0.196.0>,#Fun<lasp_distribution_backend.38.66903587>,#Fun<lasp_distribution_backend.39.66903587>,<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_distribution_backend.erl"},{line,477}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-05-05 02:18:21 =CRASH REPORT====
+  crasher:
+    initial call: lasp_distribution_backend:init/1
+    pid: <0.349.0>
+    registered_name: lasp_distribution_backend
+    exception exit: {{function_clause,[{lasp_core,update,[<<"source">>,state_orset,<0.196.0>,#Fun<lasp_distribution_backend.38.66903587>,#Fun<lasp_distribution_backend.39.66903587>,<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_distribution_backend.erl"},{line,477}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_sup,<0.303.0>]
+    messages: []
+    links: [<0.351.0>,<0.352.0>,<0.304.0>]
+    dictionary: [{rand_seed,{#{max => 288230376151711743,next => #Fun<rand.8.41921595>,type => exsplus,uniform => #Fun<rand.9.41921595>,uniform_n => #Fun<rand.10.41921595>},[195559286274307319|236725103556103725]}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 2525
+  neighbours:
+    neighbour: [{pid,<0.352.0>},{registered_name,lasp_state_based_synchronization_backend},{initial_call,{lasp_state_based_synchronization_backend,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[lasp_distribution_backend,lasp_sup,<0.303.0>]},{messages,[]},{links,[<0.349.0>]},{dictionary,[{rand_seed,{#{max => 288230376151711743,next => #Fun<rand.8.41921595>,type => exsplus,uniform => #Fun<rand.9.41921595>,uniform_n => #Fun<rand.10.41921595>},[72449480474615262|71675275656478508]}}]},{trap_exit,false},{status,waiting},{heap_size,610},{stack_size,9},{reductions,2327}]
+    neighbour: [{pid,<0.351.0>},{registered_name,lasp_ets_storage_backend},{initial_call,{lasp_ets_storage_backend,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[lasp_distribution_backend,lasp_sup,<0.303.0>]},{messages,[]},{links,[<0.349.0>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,9},{reductions,38}]
+2017-05-05 02:18:21 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{lasp_core,update,[<<"source">>,state_orset,<0.196.0>,#Fun<lasp_distribution_backend.38.66903587>,#Fun<lasp_distribution_backend.39.66903587>,<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_distribution_backend.erl"},{line,477}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.349.0>},{id,lasp_distribution_backend},{mfargs,{lasp_distribution_backend,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 04:17:32 =CRASH REPORT====
+  crasher:
+    initial call: gen_flow:init/4
+    pid: <0.400.0>
+    registered_name: []
+    exception error: {function_clause,[{lasp_core,query_var,[{<<"set">>},<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,349}]},{lasp_process,process,2,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_process.erl"},{line,187}]},{gen_flow,loop,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/gen_flow/src/gen_flow.erl"},{line,171}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_process_sup,lasp_sup,<0.303.0>]
+    messages: [{'EXIT',<0.401.0>,normal}]
+    links: [<0.353.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2017-05-05 04:17:32 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_process_sup}
+     Context:    child_terminated
+     Reason:     function_clause
+     Offender:   [{pid,<0.400.0>},{id,gen_flow},{mfargs,{gen_flow,start_link,[lasp_process,1,[[{{<<"set">>},#Fun<lasp_process.2.118998842>}],#Fun<lasp_process.3.118998842>,{<0.349.0>,#Fun<lasp_process.4.118998842>}]]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 04:17:32 =CRASH REPORT====
+  crasher:
+    initial call: gen_flow:init/4
+    pid: <0.402.0>
+    registered_name: []
+    exception error: {function_clause,[{lasp_core,query_var,[{<<"set">>},<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,349}]},{lasp_process,process,2,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_process.erl"},{line,187}]},{gen_flow,loop,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/gen_flow/src/gen_flow.erl"},{line,171}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_process_sup,lasp_sup,<0.303.0>]
+    messages: [{'EXIT',<0.403.0>,normal}]
+    links: [<0.353.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2017-05-05 04:17:32 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_process_sup}
+     Context:    child_terminated
+     Reason:     function_clause
+     Offender:   [{pid,<0.402.0>},{id,gen_flow},{mfargs,{gen_flow,start_link,[lasp_process,1,[[{{<<"set">>},#Fun<lasp_process.2.118998842>}],#Fun<lasp_process.3.118998842>,{<0.349.0>,#Fun<lasp_process.4.118998842>}]]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 04:17:32 =CRASH REPORT====
+  crasher:
+    initial call: gen_flow:init/4
+    pid: <0.404.0>
+    registered_name: []
+    exception error: {function_clause,[{lasp_core,query_var,[{<<"set">>},<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,349}]},{lasp_process,process,2,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_process.erl"},{line,187}]},{gen_flow,loop,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/gen_flow/src/gen_flow.erl"},{line,171}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_process_sup,lasp_sup,<0.303.0>]
+    messages: [{'EXIT',<0.405.0>,normal}]
+    links: [<0.353.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2017-05-05 04:17:32 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_process_sup}
+     Context:    child_terminated
+     Reason:     function_clause
+     Offender:   [{pid,<0.404.0>},{id,gen_flow},{mfargs,{gen_flow,start_link,[lasp_process,1,[[{{<<"set">>},#Fun<lasp_process.2.118998842>}],#Fun<lasp_process.3.118998842>,{<0.349.0>,#Fun<lasp_process.4.118998842>}]]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 04:17:32 =CRASH REPORT====
+  crasher:
+    initial call: gen_flow:init/4
+    pid: <0.406.0>
+    registered_name: []
+    exception error: {function_clause,[{lasp_core,query_var,[{<<"set">>},<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,349}]},{lasp_process,process,2,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_process.erl"},{line,187}]},{gen_flow,loop,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/gen_flow/src/gen_flow.erl"},{line,171}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_process_sup,lasp_sup,<0.303.0>]
+    messages: [{'EXIT',<0.407.0>,normal}]
+    links: [<0.353.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2017-05-05 04:17:32 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_process_sup}
+     Context:    child_terminated
+     Reason:     function_clause
+     Offender:   [{pid,<0.406.0>},{id,gen_flow},{mfargs,{gen_flow,start_link,[lasp_process,1,[[{{<<"set">>},#Fun<lasp_process.2.118998842>}],#Fun<lasp_process.3.118998842>,{<0.349.0>,#Fun<lasp_process.4.118998842>}]]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 04:17:32 =CRASH REPORT====
+  crasher:
+    initial call: gen_flow:init/4
+    pid: <0.408.0>
+    registered_name: []
+    exception error: {function_clause,[{lasp_core,query_var,[{<<"set">>},<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,349}]},{lasp_process,process,2,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_process.erl"},{line,187}]},{gen_flow,loop,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/gen_flow/src/gen_flow.erl"},{line,171}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_process_sup,lasp_sup,<0.303.0>]
+    messages: [{'EXIT',<0.409.0>,normal}]
+    links: [<0.353.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2017-05-05 04:17:32 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_process_sup}
+     Context:    child_terminated
+     Reason:     function_clause
+     Offender:   [{pid,<0.408.0>},{id,gen_flow},{mfargs,{gen_flow,start_link,[lasp_process,1,[[{{<<"set">>},#Fun<lasp_process.2.118998842>}],#Fun<lasp_process.3.118998842>,{<0.349.0>,#Fun<lasp_process.4.118998842>}]]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 04:17:32 =CRASH REPORT====
+  crasher:
+    initial call: gen_flow:init/4
+    pid: <0.410.0>
+    registered_name: []
+    exception error: {function_clause,[{lasp_core,query_var,[{<<"set">>},<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,349}]},{lasp_process,process,2,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_process.erl"},{line,187}]},{gen_flow,loop,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/gen_flow/src/gen_flow.erl"},{line,171}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_process_sup,lasp_sup,<0.303.0>]
+    messages: [{'EXIT',<0.411.0>,normal}]
+    links: [<0.353.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2017-05-05 04:17:32 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_process_sup}
+     Context:    child_terminated
+     Reason:     function_clause
+     Offender:   [{pid,<0.410.0>},{id,gen_flow},{mfargs,{gen_flow,start_link,[lasp_process,1,[[{{<<"set">>},#Fun<lasp_process.2.118998842>}],#Fun<lasp_process.3.118998842>,{<0.349.0>,#Fun<lasp_process.4.118998842>}]]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 04:17:32 =CRASH REPORT====
+  crasher:
+    initial call: gen_flow:init/4
+    pid: <0.412.0>
+    registered_name: []
+    exception error: {function_clause,[{lasp_core,query_var,[{<<"set">>},<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,349}]},{lasp_process,process,2,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_process.erl"},{line,187}]},{gen_flow,loop,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/gen_flow/src/gen_flow.erl"},{line,171}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_process_sup,lasp_sup,<0.303.0>]
+    messages: [{'EXIT',<0.413.0>,normal}]
+    links: [<0.353.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2017-05-05 04:17:32 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_process_sup}
+     Context:    child_terminated
+     Reason:     function_clause
+     Offender:   [{pid,<0.412.0>},{id,gen_flow},{mfargs,{gen_flow,start_link,[lasp_process,1,[[{{<<"set">>},#Fun<lasp_process.2.118998842>}],#Fun<lasp_process.3.118998842>,{<0.349.0>,#Fun<lasp_process.4.118998842>}]]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 04:17:32 =CRASH REPORT====
+  crasher:
+    initial call: gen_flow:init/4
+    pid: <0.414.0>
+    registered_name: []
+    exception error: {function_clause,[{lasp_core,query_var,[{<<"set">>},<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,349}]},{lasp_process,process,2,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_process.erl"},{line,187}]},{gen_flow,loop,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/gen_flow/src/gen_flow.erl"},{line,171}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_process_sup,lasp_sup,<0.303.0>]
+    messages: [{'EXIT',<0.415.0>,normal}]
+    links: [<0.353.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2017-05-05 04:17:32 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_process_sup}
+     Context:    child_terminated
+     Reason:     function_clause
+     Offender:   [{pid,<0.414.0>},{id,gen_flow},{mfargs,{gen_flow,start_link,[lasp_process,1,[[{{<<"set">>},#Fun<lasp_process.2.118998842>}],#Fun<lasp_process.3.118998842>,{<0.349.0>,#Fun<lasp_process.4.118998842>}]]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 04:17:32 =CRASH REPORT====
+  crasher:
+    initial call: gen_flow:init/4
+    pid: <0.416.0>
+    registered_name: []
+    exception error: {function_clause,[{lasp_core,query_var,[{<<"set">>},<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,349}]},{lasp_process,process,2,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_process.erl"},{line,187}]},{gen_flow,loop,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/gen_flow/src/gen_flow.erl"},{line,171}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_process_sup,lasp_sup,<0.303.0>]
+    messages: [{'EXIT',<0.417.0>,normal}]
+    links: [<0.353.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2017-05-05 04:17:32 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_process_sup}
+     Context:    child_terminated
+     Reason:     function_clause
+     Offender:   [{pid,<0.416.0>},{id,gen_flow},{mfargs,{gen_flow,start_link,[lasp_process,1,[[{{<<"set">>},#Fun<lasp_process.2.118998842>}],#Fun<lasp_process.3.118998842>,{<0.349.0>,#Fun<lasp_process.4.118998842>}]]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 04:17:32 =CRASH REPORT====
+  crasher:
+    initial call: gen_flow:init/4
+    pid: <0.418.0>
+    registered_name: []
+    exception error: {function_clause,[{lasp_core,query_var,[{<<"set">>},<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,349}]},{lasp_process,process,2,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_process.erl"},{line,187}]},{gen_flow,loop,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/gen_flow/src/gen_flow.erl"},{line,171}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_process_sup,lasp_sup,<0.303.0>]
+    messages: [{'EXIT',<0.419.0>,normal}]
+    links: [<0.353.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2017-05-05 04:17:32 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_process_sup}
+     Context:    child_terminated
+     Reason:     function_clause
+     Offender:   [{pid,<0.418.0>},{id,gen_flow},{mfargs,{gen_flow,start_link,[lasp_process,1,[[{{<<"set">>},#Fun<lasp_process.2.118998842>}],#Fun<lasp_process.3.118998842>,{<0.349.0>,#Fun<lasp_process.4.118998842>}]]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 04:17:32 =CRASH REPORT====
+  crasher:
+    initial call: gen_flow:init/4
+    pid: <0.420.0>
+    registered_name: []
+    exception error: {function_clause,[{lasp_core,query_var,[{<<"set">>},<0.351.0>],[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,349}]},{lasp_process,process,2,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/lasp/src/lasp_process.erl"},{line,187}]},{gen_flow,loop,3,[{file,"/Users/anne-francevanswieten/lasp/_build/default/lib/gen_flow/src/gen_flow.erl"},{line,171}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_process_sup,lasp_sup,<0.303.0>]
+    messages: [{'EXIT',<0.421.0>,normal}]
+    links: [<0.353.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2017-05-05 04:17:32 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_process_sup}
+     Context:    child_terminated
+     Reason:     function_clause
+     Offender:   [{pid,<0.420.0>},{id,gen_flow},{mfargs,{gen_flow,start_link,[lasp_process,1,[[{{<<"set">>},#Fun<lasp_process.2.118998842>}],#Fun<lasp_process.3.118998842>,{<0.349.0>,#Fun<lasp_process.4.118998842>}]]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 04:17:32 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_process_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.420.0>},{id,gen_flow},{mfargs,{gen_flow,start_link,[lasp_process,1,[[{{<<"set">>},#Fun<lasp_process.2.118998842>}],#Fun<lasp_process.3.118998842>,{<0.349.0>,#Fun<lasp_process.4.118998842>}]]}},{restart_type,transient},{shutdown,5000},{child_type,worker}]
+
+2017-05-05 04:17:32 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_sup}
+     Context:    child_terminated
+     Reason:     shutdown
+     Offender:   [{pid,<0.353.0>},{id,lasp_process_sup},{mfargs,{lasp_process_sup,start_link,[]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]
+

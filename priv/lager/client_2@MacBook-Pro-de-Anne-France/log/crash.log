@@ -1,0 +1,6 @@
+2017-05-02 18:12:36 =SUPERVISOR REPORT====
+     Supervisor: {local,partisan_pool}
+     Context:    shutdown_error
+     Reason:     noproc
+     Offender:   [{pid,1},{id,{partisan_peer_service_server,undefined,undefined,undefined}},{mfargs,{partisan_peer_service_server,acceptor_init,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
