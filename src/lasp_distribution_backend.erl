@@ -131,19 +131,24 @@ update(Id, Operation, Actor) ->
 %%      `Operation', which should be valid for the type of CRDT stored
 %%      at the given `Id'.
 %%
+%% @doc Update a list of dataflow variables.
+%%
+%%      Read the given list of tuples containing `Id', 'Operator' pair and update 'Id' given the provided
+%%      `Operation', which should be valid for the type of CRDT stored
+%%      at the given `Id'.
+%%
 -spec transaction([{id(), operation()}], actor()) -> {ok, var()} | error().
 transaction(List, Actor) ->
-    
-    
-
-	Listupdate = fun({Id, Operation}) -> 
+	Function = fun({Id, Operation}) -> 
 		gen_server:call(?MODULE, {update, Id, Operation, Actor}, infinity)
 	end,
-    lists:foreach(Listupdate,List),
+	lists:foreach(Function, List).
+	%lasp_state_based_synchronization_backend:store_in_buffer(List, Actor).
+
     
 	
 
-     %% lasp_state_based_synchronization_backend:store_in_buffer(List, Actor).
+   
 %% @doc Bind a dataflow variable to a value.
 %%
 %%      The provided `Id' is identifier of a previously declared (see:
